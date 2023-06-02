@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="8.14">
+<file name="/Users/jeffery/project/zjc/flink-cdc-connectors/flink-sql-connector-postgres-cdc/src/main/java/com/ververica/cdc/connectors/postgres/DummyDocs.java">
+</file>
+</checkstyle>

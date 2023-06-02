@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="8.14">
+<file name="/Users/jeffery/project/zjc/flink-cdc-connectors/flink-connector-mysql-cdc/src/main/java/com/ververica/cdc/connectors/mysql/MySqlSource.java">
+</file>
+<file name="/Users/jeffery/project/zjc/flink-cdc-connectors/flink-connector-mysql-cdc/src/main/java/com/ververica/cdc/connectors/mysql/source/reader/MySqlSplitReader.java">
+</file>
+<file name="/Users/jeffery/project/zjc/flink-cdc-connectors/flink-connector-mysql-cdc/src/main/java/com/ververica/cdc/connectors/mysql/source/reader/MySqlSourceReader.java">
+</file>
+<file name="/Users/jeffery/project/zjc/flink-cdc-connectors/flink-connector-mysql-cdc/src/main/java/com/ververica/cdc/connectors/mysql/source/reader/MySqlRecordEmitter.java">
+</file>
+<file name="/Users/jeffery/project/zjc/flink-cdc-connectors/flink-connector-mysql-cdc/src/main/java/com/ververica/cdc/connectors/mysql/source/reader/MySqlSourceReaderContext.java">
+</file>
+<file name="/Users/jeffery/project/zjc/flink-cdc-connectors/flink-connector-mysql-cdc/src/main/java/com/ververica/cdc/connectors/mysql/source/split/MySqlSplitState.java">
+</file>
+<file name="/Users/jeffery/project/zjc/flink-cdc-connectors/flink-connector-mysql-cdc/src/main/java/com/ververica/cdc/connectors/mysql/source/split/FinishedSnapshotSplitInfo.java">
+</file>
+<file name="/Users/jeffery/project/zjc/flink-cdc-connectors/flink-connector-mysql-cdc/src/main/java/com/ververica/cdc/connectors/mysql/source/split/MySqlBinlogSplit.java">
+</file>
+<file name="/Users/jeffery/project/zjc/flink-cdc-connectors/flink-connector-mysql-cdc/src/main/java/com/ververica/cdc/connectors/mysql/source/split/MySqlSplitSerializer.java">
+</file>
+<file name="/Users/jeffery/project/zjc/flink-cdc-connectors/flink-connector-mysql-cdc/src/main/java/com/ververica/cdc/connectors/mysql/source/split/MySqlRecords.java">
+</file>
+<file name="/Users/jeffery/project/zjc/flink-cdc-connectors/flink-connector-mysql-cdc/src/main/java/com/ververica/cdc/connectors/mysql/source/split/MySqlSnapshotSplitState.java">
+</file>
+<file name="/Users/jeffery/project/zjc/flink-cdc-connectors/flink-connector-mysql-cdc/src/main/java/com/ververica/cdc/connectors/mysql/source/split/MySqlSplit.java">
+</file>
+<file name="/Users/jeffery/project/zjc/flink-cdc-connectors/flink-connector-mysql-cdc/src/main/java/com/ververica/cdc/connectors/mysql/source/split/MySqlSnapshotSplit.java">
+</file>
+<file name="/Users/jeffery/project/zjc/flink-cdc-connectors/flink-connector-mysql-cdc/src/main/java/com/ververica/cdc/connectors/mysql/source/split/MySqlBinlogSplitState.java">
+</file>
+<file name="/Users/jeffery/project/zjc/flink-cdc-connectors/flink-connector-mysql-cdc/src/main/java/com/ververica/cdc/connectors/mysql/source/metrics/MySqlSourceReaderMetrics.java">
+</file>
+<file name="/Users/jeffery/project/zjc/flink-cdc-connectors/flink-connector-mysql-cdc/src/main/java/com/ververica/cdc/connectors/mysql/source/connection/ConnectionPools.java">
+</file>
+<file name="/Users/jeffery/project/zjc/flink-cdc-connectors/flink-connector-mysql-cdc/src/main/java/com/ververica/cdc/connectors/mysql/source/connection/JdbcConnectionFactory.java">
+</file>
+<file name="/Users/jeffery/project/zjc/flink-cdc-connectors/flink-connector-mysql-cdc/src/main/java/com/ververica/cdc/connectors/mysql/source/connection/ConnectionPoolId.java">
+</file>
+<file name="/Users/jeffery/project/zjc/flink-cdc-connectors/flink-connector-mysql-cdc/src/main/java/com/ververica/cdc/connectors/mysql/source/connection/PooledDataSourceFactory.java">
+</file>
+<file name="/Users/jeffery/project/zjc/flink-cdc-connectors/flink-connector-mysql-cdc/src/main/java/com/ververica/cdc/connectors/mysql/source/connection/JdbcConnectionPools.java">
+</file>
+<file name="/Users/jeffery/project/zjc/flink-cdc-connectors/flink-connector-mysql-cdc/src/main/java/com/ververica/cdc/connectors/mysql/source/MySqlSource.java">
+</file>
+<file name="/Users/jeffery/project/zjc/flink-cdc-connectors/flink-connector-mysql-cdc/src/main/java/com/ververica/cdc/connectors/mysql/source/config/ServerIdRange.java">
+</file>
+<file name="/Users/jeffery/project/zjc/flink-cdc-connectors/flink-connector-mysql-cdc/src/main/java/com/ververica/cdc/connectors/mysql/source/config/MySqlSourceOptions.java">
+</file>
+<file name="/Users/jeffery/project/zjc/flink-cdc-connectors/flink-connector-mysql-cdc/src/main/java/com/ververica/cdc/connectors/mysql/source/config/MySqlSourceConfig.java">
+</file>
+<file name="/Users/jeffery/project/zjc/flink-cdc-connectors/flink-connector-mysql-cdc/src/main/java/com/ververica/cdc/connectors/mysql/source/config/MySqlSourceConfigFactory.java">
+</file>
+<file name="/Users/jeffery/project/zjc/flink-cdc-connectors/flink-connector-mysql-cdc/src/main/java/com/ververica/cdc/connectors/mysql/source/utils/SerializerUtils.java">
+</file>
+<file name="/Users/jeffery/project/zjc/flink-cdc-connectors/flink-connector-mysql-cdc/src/main/java/com/ververica/cdc/connectors/mysql/source/utils/RecordUtils.java">
+</file>
+<file name="/Users/jeffery/project/zjc/flink-cdc-connectors/flink-connector-mysql-cdc/src/main/java/com/ververica/cdc/connectors/mysql/source/utils/TableDiscoveryUtils.java">
+</file>
+<file name="/Users/jeffery/project/zjc/flink-cdc-connectors/flink-connector-mysql-cdc/src/main/java/com/ververica/cdc/connectors/mysql/source/utils/ChunkUtils.java">
+</file>
+<file name="/Users/jeffery/project/zjc/flink-cdc-connectors/flink-connector-mysql-cdc/src/main/java/com/ververica/cdc/connectors/mysql/source/utils/ObjectUtils.java">
+</file>
+<file name="/Users/jeffery/project/zjc/flink-cdc-connectors/flink-connector-mysql-cdc/src/main/java/com/ververica/cdc/connectors/mysql/source/utils/StatementUtils.java">
+</file>
+<file name="/Users/jeffery/project/zjc/flink-cdc-connectors/flink-connector-mysql-cdc/src/main/java/com/ververica/cdc/connectors/mysql/source/offset/BinlogOffsetSerializer.java">
+</file>
+<file name="/Users/jeffery/project/zjc/flink-cdc-connectors/flink-connector-mysql-cdc/src/main/java/com/ververica/cdc/connectors/mysql/source/offset/BinlogOffset.java">
+</file>
+<file name="/Users/jeffery/project/zjc/flink-cdc-connectors/flink-connector-mysql-cdc/src/main/java/com/ververica/cdc/connectors/mysql/source/assigners/ChunkSplitter.java">
+</file>
+<file name="/Users/jeffery/project/zjc/flink-cdc-connectors/flink-connector-mysql-cdc/src/main/java/com/ververica/cdc/connectors/mysql/source/assigners/MySqlHybridSplitAssigner.java">
+</file>
+<file name="/Users/jeffery/project/zjc/flink-cdc-connectors/flink-connector-mysql-cdc/src/main/java/com/ververica/cdc/connectors/mysql/source/assigners/MySqlBinlogSplitAssigner.java">
+</file>
+<file name="/Users/jeffery/project/zjc/flink-cdc-connectors/flink-connector-mysql-cdc/src/main/java/com/ververica/cdc/connectors/mysql/source/assigners/ChunkRange.java">
+</file>
+<file name="/Users/jeffery/project/zjc/flink-cdc-connectors/flink-connector-mysql-cdc/src/main/java/com/ververica/cdc/connectors/mysql/source/assigners/state/BinlogPendingSplitsState.java">
+</file>
+<file name="/Users/jeffery/project/zjc/flink-cdc-connectors/flink-connector-mysql-cdc/src/main/java/com/ververica/cdc/connectors/mysql/source/assigners/state/PendingSplitsStateSerializer.java">
+</file>
+<file name="/Users/jeffery/project/zjc/flink-cdc-connectors/flink-connector-mysql-cdc/src/main/java/com/ververica/cdc/connectors/mysql/source/assigners/state/PendingSplitsState.java">
+</file>
+<file name="/Users/jeffery/project/zjc/flink-cdc-connectors/flink-connector-mysql-cdc/src/main/java/com/ververica/cdc/connectors/mysql/source/assigners/state/HybridPendingSplitsState.java">
+</file>
+<file name="/Users/jeffery/project/zjc/flink-cdc-connectors/flink-connector-mysql-cdc/src/main/java/com/ververica/cdc/connectors/mysql/source/assigners/state/SnapshotPendingSplitsState.java">
+</file>
+<file name="/Users/jeffery/project/zjc/flink-cdc-connectors/flink-connector-mysql-cdc/src/main/java/com/ververica/cdc/connectors/mysql/source/assigners/MySqlSplitAssigner.java">
+</file>
+<file name="/Users/jeffery/project/zjc/flink-cdc-connectors/flink-connector-mysql-cdc/src/main/java/com/ververica/cdc/connectors/mysql/source/assigners/AssignerStatus.java">
+</file>
+<file name="/Users/jeffery/project/zjc/flink-cdc-connectors/flink-connector-mysql-cdc/src/main/java/com/ververica/cdc/connectors/mysql/source/assigners/MySqlSnapshotSplitAssigner.java">
+</file>
+<file name="/Users/jeffery/project/zjc/flink-cdc-connectors/flink-connector-mysql-cdc/src/main/java/com/ververica/cdc/connectors/mysql/source/events/BinlogSplitMetaRequestEvent.java">
+</file>
+<file name="/Users/jeffery/project/zjc/flink-cdc-connectors/flink-connector-mysql-cdc/src/main/java/com/ververica/cdc/connectors/mysql/source/events/LatestFinishedSplitsSizeEvent.java">
+</file>
+<file name="/Users/jeffery/project/zjc/flink-cdc-connectors/flink-connector-mysql-cdc/src/main/java/com/ververica/cdc/connectors/mysql/source/events/BinlogSplitMetaEvent.java">
+</file>
+<file name="/Users/jeffery/project/zjc/flink-cdc-connectors/flink-connector-mysql-cdc/src/main/java/com/ververica/cdc/connectors/mysql/source/events/FinishedSnapshotSplitsReportEvent.java">
+</file>
+<file name="/Users/jeffery/project/zjc/flink-cdc-connectors/flink-connector-mysql-cdc/src/main/java/com/ververica/cdc/connectors/mysql/source/events/FinishedSnapshotSplitsAckEvent.java">
+</file>
+<file name="/Users/jeffery/project/zjc/flink-cdc-connectors/flink-connector-mysql-cdc/src/main/java/com/ververica/cdc/connectors/mysql/source/events/SuspendBinlogReaderEvent.java">
+</file>
+<file name="/Users/jeffery/project/zjc/flink-cdc-connectors/flink-connector-mysql-cdc/src/main/java/com/ververica/cdc/connectors/mysql/source/events/LatestFinishedSplitsSizeRequestEvent.java">
+</file>
+<file name="/Users/jeffery/project/zjc/flink-cdc-connectors/flink-connector-mysql-cdc/src/main/java/com/ververica/cdc/connectors/mysql/source/events/WakeupReaderEvent.java">
+</file>
+<file name="/Users/jeffery/project/zjc/flink-cdc-connectors/flink-connector-mysql-cdc/src/main/java/com/ververica/cdc/connectors/mysql/source/events/SuspendBinlogReaderAckEvent.java">
+</file>
+<file name="/Users/jeffery/project/zjc/flink-cdc-connectors/flink-connector-mysql-cdc/src/main/java/com/ververica/cdc/connectors/mysql/source/events/FinishedSnapshotSplitsRequestEvent.java">
+</file>
+<file name="/Users/jeffery/project/zjc/flink-cdc-connectors/flink-connector-mysql-cdc/src/main/java/com/ververica/cdc/connectors/mysql/source/enumerator/MySqlSourceEnumerator.java">
+</file>
+<file name="/Users/jeffery/project/zjc/flink-cdc-connectors/flink-connector-mysql-cdc/src/main/java/com/ververica/cdc/connectors/mysql/source/MySqlSourceBuilder.java">
+</file>
+<file name="/Users/jeffery/project/zjc/flink-cdc-connectors/flink-connector-mysql-cdc/src/main/java/com/ververica/cdc/connectors/mysql/schema/MySqlTableDefinition.java">
+</file>
+<file name="/Users/jeffery/project/zjc/flink-cdc-connectors/flink-connector-mysql-cdc/src/main/java/com/ververica/cdc/connectors/mysql/schema/MySqlTypeUtils.java">
+</file>
+<file name="/Users/jeffery/project/zjc/flink-cdc-connectors/flink-connector-mysql-cdc/src/main/java/com/ververica/cdc/connectors/mysql/schema/MySqlSchema.java">
+</file>
+<file name="/Users/jeffery/project/zjc/flink-cdc-connectors/flink-connector-mysql-cdc/src/main/java/com/ververica/cdc/connectors/mysql/table/MySqlReadableMetadata.java">
+</file>
+<file name="/Users/jeffery/project/zjc/flink-cdc-connectors/flink-connector-mysql-cdc/src/main/java/com/ververica/cdc/connectors/mysql/table/MySqlTableSourceFactory.java">
+</file>
+<file name="/Users/jeffery/project/zjc/flink-cdc-connectors/flink-connector-mysql-cdc/src/main/java/com/ververica/cdc/connectors/mysql/table/MySqlTableSource.java">
+</file>
+<file name="/Users/jeffery/project/zjc/flink-cdc-connectors/flink-connector-mysql-cdc/src/main/java/com/ververica/cdc/connectors/mysql/table/StartupMode.java">
+</file>
+<file name="/Users/jeffery/project/zjc/flink-cdc-connectors/flink-connector-mysql-cdc/src/main/java/com/ververica/cdc/connectors/mysql/table/JdbcUrlUtils.java">
+</file>
+<file name="/Users/jeffery/project/zjc/flink-cdc-connectors/flink-connector-mysql-cdc/src/main/java/com/ververica/cdc/connectors/mysql/table/StartupOptions.java">
+</file>
+<file name="/Users/jeffery/project/zjc/flink-cdc-connectors/flink-connector-mysql-cdc/src/main/java/com/ververica/cdc/connectors/mysql/table/MySqlDeserializationConverterFactory.java">
+</file>
+<file name="/Users/jeffery/project/zjc/flink-cdc-connectors/flink-connector-mysql-cdc/src/main/java/com/ververica/cdc/connectors/mysql/MySqlValidator.java">
+</file>
+<file name="/Users/jeffery/project/zjc/flink-cdc-connectors/flink-connector-mysql-cdc/src/main/java/com/ververica/cdc/connectors/mysql/SeekBinlogToTimestampFilter.java">
+</file>
+<file name="/Users/jeffery/project/zjc/flink-cdc-connectors/flink-connector-mysql-cdc/src/main/java/com/ververica/cdc/connectors/mysql/debezium/reader/BinlogSplitReader.java">
+</file>
+<file name="/Users/jeffery/project/zjc/flink-cdc-connectors/flink-connector-mysql-cdc/src/main/java/com/ververica/cdc/connectors/mysql/debezium/reader/SnapshotSplitReader.java">
+</file>
+<file name="/Users/jeffery/project/zjc/flink-cdc-connectors/flink-connector-mysql-cdc/src/main/java/com/ververica/cdc/connectors/mysql/debezium/reader/DebeziumReader.java">
+</file>
+<file name="/Users/jeffery/project/zjc/flink-cdc-connectors/flink-connector-mysql-cdc/src/main/java/com/ververica/cdc/connectors/mysql/debezium/DebeziumUtils.java">
+</file>
+<file name="/Users/jeffery/project/zjc/flink-cdc-connectors/flink-connector-mysql-cdc/src/main/java/com/ververica/cdc/connectors/mysql/debezium/dispatcher/SignalEventDispatcher.java">
+</file>
+<file name="/Users/jeffery/project/zjc/flink-cdc-connectors/flink-connector-mysql-cdc/src/main/java/com/ververica/cdc/connectors/mysql/debezium/dispatcher/EventDispatcherImpl.java">
+</file>
+<file name="/Users/jeffery/project/zjc/flink-cdc-connectors/flink-connector-mysql-cdc/src/main/java/com/ververica/cdc/connectors/mysql/debezium/EmbeddedFlinkDatabaseHistory.java">
+</file>
+<file name="/Users/jeffery/project/zjc/flink-cdc-connectors/flink-connector-mysql-cdc/src/main/java/com/ververica/cdc/connectors/mysql/debezium/task/context/MySqlTaskContextImpl.java">
+</file>
+<file name="/Users/jeffery/project/zjc/flink-cdc-connectors/flink-connector-mysql-cdc/src/main/java/com/ververica/cdc/connectors/mysql/debezium/task/context/StatefulTaskContext.java">
+</file>
+<file name="/Users/jeffery/project/zjc/flink-cdc-connectors/flink-connector-mysql-cdc/src/main/java/com/ververica/cdc/connectors/mysql/debezium/task/context/MySqlErrorHandler.java">
+</file>
+<file name="/Users/jeffery/project/zjc/flink-cdc-connectors/flink-connector-mysql-cdc/src/main/java/com/ververica/cdc/connectors/mysql/debezium/task/MySqlSnapshotSplitReadTask.java">
+</file>
+<file name="/Users/jeffery/project/zjc/flink-cdc-connectors/flink-connector-mysql-cdc/src/main/java/com/ververica/cdc/connectors/mysql/debezium/task/MySqlBinlogSplitReadTask.java">
+</file>
+<file name="/Users/jeffery/project/zjc/flink-cdc-connectors/flink-connector-mysql-cdc/src/main/java/com/github/shyiko/mysql/binlog/io/BufferedSocketInputStream.java">
+</file>
+<file name="/Users/jeffery/project/zjc/flink-cdc-connectors/flink-connector-mysql-cdc/src/test/java/com/ververica/cdc/connectors/mysql/LegacyMySqlSourceITCase.java">
+</file>
+<file name="/Users/jeffery/project/zjc/flink-cdc-connectors/flink-connector-mysql-cdc/src/test/java/com/ververica/cdc/connectors/mysql/source/reader/MySqlSourceReaderTest.java">
+</file>
+<file name="/Users/jeffery/project/zjc/flink-cdc-connectors/flink-connector-mysql-cdc/src/test/java/com/ververica/cdc/connectors/mysql/source/reader/MySqlRecordEmitterTest.java">
+</file>
+<file name="/Users/jeffery/project/zjc/flink-cdc-connectors/flink-connector-mysql-cdc/src/test/java/com/ververica/cdc/connectors/mysql/source/split/MySqlSplitSerializerTest.java">
+</file>
+<file name="/Users/jeffery/project/zjc/flink-cdc-connectors/flink-connector-mysql-cdc/src/test/java/com/ververica/cdc/connectors/mysql/source/split/MySqlSplitStateTest.java">
+</file>
+<file name="/Users/jeffery/project/zjc/flink-cdc-connectors/flink-connector-mysql-cdc/src/test/java/com/ververica/cdc/connectors/mysql/source/utils/RecordUtilsTest.java">
+</file>
+<file name="/Users/jeffery/project/zjc/flink-cdc-connectors/flink-connector-mysql-cdc/src/test/java/com/ververica/cdc/connectors/mysql/source/utils/ObjectUtilsTest.java">
+</file>
+<file name="/Users/jeffery/project/zjc/flink-cdc-connectors/flink-connector-mysql-cdc/src/test/java/com/ververica/cdc/connectors/mysql/source/MySqlSourceITCase.java">
+</file>
+<file name="/Users/jeffery/project/zjc/flink-cdc-connectors/flink-connector-mysql-cdc/src/test/java/com/ververica/cdc/connectors/mysql/source/assigners/MySqlSnapshotSplitAssignerTest.java">
+</file>
+<file name="/Users/jeffery/project/zjc/flink-cdc-connectors/flink-connector-mysql-cdc/src/test/java/com/ververica/cdc/connectors/mysql/source/assigners/state/PendingSplitsStateSerializerTest.java">
+</file>
+<file name="/Users/jeffery/project/zjc/flink-cdc-connectors/flink-connector-mysql-cdc/src/test/java/com/ververica/cdc/connectors/mysql/source/assigners/MySqlHybridSplitAssignerTest.java">
+</file>
+<file name="/Users/jeffery/project/zjc/flink-cdc-connectors/flink-connector-mysql-cdc/src/test/java/com/ververica/cdc/connectors/mysql/source/MySqlSourceExampleTest.java">
+</file>
+<file name="/Users/jeffery/project/zjc/flink-cdc-connectors/flink-connector-mysql-cdc/src/test/java/com/ververica/cdc/connectors/mysql/source/MySqlSourceTestBase.java">
+</file>
+<file name="/Users/jeffery/project/zjc/flink-cdc-connectors/flink-connector-mysql-cdc/src/test/java/com/ververica/cdc/connectors/mysql/LegacyMySqlSourceTest.java">
+</file>
+<file name="/Users/jeffery/project/zjc/flink-cdc-connectors/flink-connector-mysql-cdc/src/test/java/com/ververica/cdc/connectors/mysql/MySqlValidatorTest.java">
+</file>
+<file name="/Users/jeffery/project/zjc/flink-cdc-connectors/flink-connector-mysql-cdc/src/test/java/com/ververica/cdc/connectors/mysql/LegacyMySqlTestBase.java">
+</file>
+<file name="/Users/jeffery/project/zjc/flink-cdc-connectors/flink-connector-mysql-cdc/src/test/java/com/ververica/cdc/connectors/mysql/MySqlTestUtils.java">
+</file>
+<file name="/Users/jeffery/project/zjc/flink-cdc-connectors/flink-connector-mysql-cdc/src/test/java/com/ververica/cdc/connectors/mysql/table/MySqlTimezoneITCase.java">
+</file>
+<file name="/Users/jeffery/project/zjc/flink-cdc-connectors/flink-connector-mysql-cdc/src/test/java/com/ververica/cdc/connectors/mysql/table/MySqlCompatibilityITCase.java">
+</file>
+<file name="/Users/jeffery/project/zjc/flink-cdc-connectors/flink-connector-mysql-cdc/src/test/java/com/ververica/cdc/connectors/mysql/table/MySqlConnectorITCase.java">
+</file>
+<file name="/Users/jeffery/project/zjc/flink-cdc-connectors/flink-connector-mysql-cdc/src/test/java/com/ververica/cdc/connectors/mysql/table/MySqlTableSourceFactoryTest.java">
+</file>
+<file name="/Users/jeffery/project/zjc/flink-cdc-connectors/flink-connector-mysql-cdc/src/test/java/com/ververica/cdc/connectors/mysql/LegacyMySqlSourceExampleTest.java">
+</file>
+<file name="/Users/jeffery/project/zjc/flink-cdc-connectors/flink-connector-mysql-cdc/src/test/java/com/ververica/cdc/connectors/mysql/testutils/MySqlVersion.java">
+</file>
+<file name="/Users/jeffery/project/zjc/flink-cdc-connectors/flink-connector-mysql-cdc/src/test/java/com/ververica/cdc/connectors/mysql/testutils/RecordsFormatter.java">
+</file>
+<file name="/Users/jeffery/project/zjc/flink-cdc-connectors/flink-connector-mysql-cdc/src/test/java/com/ververica/cdc/connectors/mysql/testutils/UniqueDatabase.java">
+</file>
+<file name="/Users/jeffery/project/zjc/flink-cdc-connectors/flink-connector-mysql-cdc/src/test/java/com/ververica/cdc/connectors/mysql/testutils/MySqlContainer.java">
+</file>
+<file name="/Users/jeffery/project/zjc/flink-cdc-connectors/flink-connector-mysql-cdc/src/test/java/com/ververica/cdc/connectors/mysql/debezium/reader/SnapshotSplitReaderTest.java">
+</file>
+<file name="/Users/jeffery/project/zjc/flink-cdc-connectors/flink-connector-mysql-cdc/src/test/java/com/ververica/cdc/connectors/mysql/debezium/reader/BinlogSplitReaderTest.java">
+</file>
+<file name="/Users/jeffery/project/zjc/flink-cdc-connectors/flink-connector-mysql-cdc/src/test/java/com/ververica/cdc/connectors/polardbx/PolardbxSourceTCase.java">
+</file>
+<file name="/Users/jeffery/project/zjc/flink-cdc-connectors/flink-connector-mysql-cdc/src/test/java/com/github/shyiko/mysql/binlog/io/BufferedSocketInputStreamTest.java">
+</file>
+<file name="/Users/jeffery/project/zjc/flink-cdc-connectors/flink-connector-mysql-cdc/src/test/resources/log4j2-test.properties">
+</file>
+</checkstyle>

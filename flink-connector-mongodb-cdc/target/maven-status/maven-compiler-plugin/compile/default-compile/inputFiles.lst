@@ -1,0 +1,9 @@
+/Users/jeffery/project/zjc/flink-cdc-connectors/flink-connector-mongodb-cdc/src/main/java/com/ververica/cdc/connectors/mongodb/utils/CollectionDiscoveryUtils.java
+/Users/jeffery/project/zjc/flink-cdc-connectors/flink-connector-mongodb-cdc/src/main/java/com/ververica/cdc/connectors/mongodb/table/MongoDBTableSource.java
+/Users/jeffery/project/zjc/flink-cdc-connectors/flink-connector-mongodb-cdc/src/main/java/com/ververica/cdc/connectors/mongodb/table/MongoDBReadableMetadata.java
+/Users/jeffery/project/zjc/flink-cdc-connectors/flink-connector-mongodb-cdc/src/main/java/com/ververica/cdc/connectors/mongodb/table/MongoDBTableSourceFactory.java
+/Users/jeffery/project/zjc/flink-cdc-connectors/flink-connector-mongodb-cdc/src/main/java/com/ververica/cdc/connectors/mongodb/table/MongoDBConnectorDeserializationSchema.java
+/Users/jeffery/project/zjc/flink-cdc-connectors/flink-connector-mongodb-cdc/src/main/java/com/ververica/cdc/connectors/mongodb/internal/MongoDBConnectorSourceConnector.java
+/Users/jeffery/project/zjc/flink-cdc-connectors/flink-connector-mongodb-cdc/src/main/java/com/ververica/cdc/connectors/mongodb/internal/MongoDBConnectorSourceTask.java
+/Users/jeffery/project/zjc/flink-cdc-connectors/flink-connector-mongodb-cdc/src/main/java/com/ververica/cdc/connectors/mongodb/internal/MongoDBEnvelope.java
+/Users/jeffery/project/zjc/flink-cdc-connectors/flink-connector-mongodb-cdc/src/main/java/com/ververica/cdc/connectors/mongodb/MongoDBSource.java

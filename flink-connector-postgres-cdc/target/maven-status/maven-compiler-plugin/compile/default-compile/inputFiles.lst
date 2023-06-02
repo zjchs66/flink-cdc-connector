@@ -1,0 +1,5 @@
+/Users/jeffery/project/zjc/flink-cdc-connectors/flink-connector-postgres-cdc/src/main/java/com/ververica/cdc/connectors/postgres/table/PostgreSQLReadableMetadata.java
+/Users/jeffery/project/zjc/flink-cdc-connectors/flink-connector-postgres-cdc/src/main/java/com/ververica/cdc/connectors/postgres/PostgreSQLSource.java
+/Users/jeffery/project/zjc/flink-cdc-connectors/flink-connector-postgres-cdc/src/main/java/com/ververica/cdc/connectors/postgres/table/PostgreSQLTableSource.java
+/Users/jeffery/project/zjc/flink-cdc-connectors/flink-connector-postgres-cdc/src/main/java/com/ververica/cdc/connectors/postgres/table/PostgreSQLTableFactory.java
+/Users/jeffery/project/zjc/flink-cdc-connectors/flink-connector-postgres-cdc/src/main/java/com/ververica/cdc/connectors/postgres/table/PostgresValueValidator.java

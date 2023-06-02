@@ -1,0 +1,8 @@
+/Users/jeffery/project/zjc/flink-cdc-connectors/flink-connector-oracle-cdc/src/main/java/com/ververica/cdc/connectors/oracle/table/OracleTableSource.java
+/Users/jeffery/project/zjc/flink-cdc-connectors/flink-connector-oracle-cdc/src/main/java/com/ververica/cdc/connectors/oracle/table/StartupOptions.java
+/Users/jeffery/project/zjc/flink-cdc-connectors/flink-connector-oracle-cdc/src/main/java/com/ververica/cdc/connectors/oracle/OracleSource.java
+/Users/jeffery/project/zjc/flink-cdc-connectors/flink-connector-oracle-cdc/src/main/java/com/ververica/cdc/connectors/oracle/table/OracleTableSourceFactory.java
+/Users/jeffery/project/zjc/flink-cdc-connectors/flink-connector-oracle-cdc/src/main/java/com/ververica/cdc/connectors/oracle/table/StartupMode.java
+/Users/jeffery/project/zjc/flink-cdc-connectors/flink-connector-oracle-cdc/src/main/java/com/ververica/cdc/connectors/oracle/table/OracleReadableMetaData.java
+/Users/jeffery/project/zjc/flink-cdc-connectors/flink-connector-oracle-cdc/src/main/java/com/ververica/cdc/connectors/oracle/OracleValidator.java
+/Users/jeffery/project/zjc/flink-cdc-connectors/flink-connector-oracle-cdc/src/main/java/com/ververica/cdc/connectors/oracle/table/OracleDeserializationConverterFactory.java

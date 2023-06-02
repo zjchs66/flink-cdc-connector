@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="8.14">
+<file name="/Users/jeffery/project/zjc/flink-cdc-connectors/flink-connector-kingbase86-cdc/src/main/java/com/ververica/cdc/connectors/kingbase86/table/PostgreSQLTableSource.java">
+</file>
+<file name="/Users/jeffery/project/zjc/flink-cdc-connectors/flink-connector-kingbase86-cdc/src/main/java/com/ververica/cdc/connectors/kingbase86/table/PostgresValueValidator.java">
+</file>
+<file name="/Users/jeffery/project/zjc/flink-cdc-connectors/flink-connector-kingbase86-cdc/src/main/java/com/ververica/cdc/connectors/kingbase86/table/PostgreSQLTableFactory.java">
+</file>
+<file name="/Users/jeffery/project/zjc/flink-cdc-connectors/flink-connector-kingbase86-cdc/src/main/java/com/ververica/cdc/connectors/kingbase86/table/PostgreSQLReadableMetadata.java">
+</file>
+<file name="/Users/jeffery/project/zjc/flink-cdc-connectors/flink-connector-kingbase86-cdc/src/main/java/com/ververica/cdc/connectors/kingbase86/PostgreSQLSource.java">
+</file>
+</checkstyle>

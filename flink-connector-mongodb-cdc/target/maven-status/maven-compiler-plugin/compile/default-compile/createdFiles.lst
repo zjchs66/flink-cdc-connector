@@ -1,0 +1,15 @@
+com/ververica/cdc/connectors/mongodb/internal/MongoDBConnectorSourceConnector.class
+com/ververica/cdc/connectors/mongodb/table/MongoDBTableSourceFactory.class
+com/ververica/cdc/connectors/mongodb/table/MongoDBTableSource.class
+com/ververica/cdc/connectors/mongodb/table/MongoDBReadableMetadata$3.class
+com/ververica/cdc/connectors/mongodb/MongoDBSource$Builder.class
+com/ververica/cdc/connectors/mongodb/utils/CollectionDiscoveryUtils.class
+com/ververica/cdc/connectors/mongodb/internal/MongoDBConnectorSourceTask.class
+com/ververica/cdc/connectors/mongodb/table/MongoDBConnectorDeserializationSchema$DeserializationRuntimeConverter.class
+com/ververica/cdc/connectors/mongodb/table/MongoDBReadableMetadata$1.class
+com/ververica/cdc/connectors/mongodb/table/MongoDBConnectorDeserializationSchema$1.class
+com/ververica/cdc/connectors/mongodb/table/MongoDBReadableMetadata.class
+com/ververica/cdc/connectors/mongodb/table/MongoDBReadableMetadata$2.class
+com/ververica/cdc/connectors/mongodb/table/MongoDBConnectorDeserializationSchema.class
+com/ververica/cdc/connectors/mongodb/MongoDBSource.class
+com/ververica/cdc/connectors/mongodb/internal/MongoDBEnvelope.class

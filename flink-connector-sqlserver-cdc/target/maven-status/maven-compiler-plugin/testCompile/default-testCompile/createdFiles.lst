@@ -1,0 +1,4 @@
+com/ververica/cdc/connectors/sqlserver/table/SqlServerConnectorITCase.class
+com/ververica/cdc/connectors/sqlserver/table/SqlServerTableFactoryTest.class
+com/ververica/cdc/connectors/sqlserver/table/SqlServerTimezoneITCase.class
+com/ververica/cdc/connectors/sqlserver/SqlServerTestBase.class

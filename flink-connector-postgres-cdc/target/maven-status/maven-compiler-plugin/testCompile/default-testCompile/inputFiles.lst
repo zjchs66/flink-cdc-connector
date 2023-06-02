@@ -1,0 +1,4 @@
+/Users/jeffery/project/zjc/flink-cdc-connectors/flink-connector-postgres-cdc/src/test/java/com/ververica/cdc/connectors/postgres/table/PostgreSQLConnectorITCase.java
+/Users/jeffery/project/zjc/flink-cdc-connectors/flink-connector-postgres-cdc/src/test/java/com/ververica/cdc/connectors/postgres/PostgresTestBase.java
+/Users/jeffery/project/zjc/flink-cdc-connectors/flink-connector-postgres-cdc/src/test/java/com/ververica/cdc/connectors/postgres/PostgreSQLSourceTest.java
+/Users/jeffery/project/zjc/flink-cdc-connectors/flink-connector-postgres-cdc/src/test/java/com/ververica/cdc/connectors/postgres/table/PostgreSQLTableFactoryTest.java

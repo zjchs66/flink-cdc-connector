@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="8.14">
+<file name="/Users/jeffery/project/zjc/flink-cdc-connectors/flink-connector-debezium/src/main/java/io/debezium/embedded/EmbeddedEngineChangeEvent.java">
+</file>
+<file name="/Users/jeffery/project/zjc/flink-cdc-connectors/flink-connector-debezium/src/main/java/com/ververica/cdc/debezium/DebeziumDeserializationSchema.java">
+</file>
+<file name="/Users/jeffery/project/zjc/flink-cdc-connectors/flink-connector-debezium/src/main/java/com/ververica/cdc/debezium/StringDebeziumDeserializationSchema.java">
+</file>
+<file name="/Users/jeffery/project/zjc/flink-cdc-connectors/flink-connector-debezium/src/main/java/com/ververica/cdc/debezium/Validator.java">
+</file>
+<file name="/Users/jeffery/project/zjc/flink-cdc-connectors/flink-connector-debezium/src/main/java/com/ververica/cdc/debezium/internal/Handover.java">
+</file>
+<file name="/Users/jeffery/project/zjc/flink-cdc-connectors/flink-connector-debezium/src/main/java/com/ververica/cdc/debezium/internal/FlinkDatabaseHistory.java">
+</file>
+<file name="/Users/jeffery/project/zjc/flink-cdc-connectors/flink-connector-debezium/src/main/java/com/ververica/cdc/debezium/internal/FlinkDatabaseSchemaHistory.java">
+</file>
+<file name="/Users/jeffery/project/zjc/flink-cdc-connectors/flink-connector-debezium/src/main/java/com/ververica/cdc/debezium/internal/FlinkOffsetBackingStore.java">
+</file>
+<file name="/Users/jeffery/project/zjc/flink-cdc-connectors/flink-connector-debezium/src/main/java/com/ververica/cdc/debezium/internal/DebeziumOffsetSerializer.java">
+</file>
+<file name="/Users/jeffery/project/zjc/flink-cdc-connectors/flink-connector-debezium/src/main/java/com/ververica/cdc/debezium/internal/DebeziumChangeFetcher.java">
+</file>
+<file name="/Users/jeffery/project/zjc/flink-cdc-connectors/flink-connector-debezium/src/main/java/com/ververica/cdc/debezium/internal/DebeziumOffset.java">
+</file>
+<file name="/Users/jeffery/project/zjc/flink-cdc-connectors/flink-connector-debezium/src/main/java/com/ververica/cdc/debezium/internal/DebeziumChangeConsumer.java">
+</file>
+<file name="/Users/jeffery/project/zjc/flink-cdc-connectors/flink-connector-debezium/src/main/java/com/ververica/cdc/debezium/internal/SchemaRecord.java">
+</file>
+<file name="/Users/jeffery/project/zjc/flink-cdc-connectors/flink-connector-debezium/src/main/java/com/ververica/cdc/debezium/DebeziumSourceFunction.java">
+</file>
+<file name="/Users/jeffery/project/zjc/flink-cdc-connectors/flink-connector-debezium/src/main/java/com/ververica/cdc/debezium/utils/TemporalConversions.java">
+</file>
+<file name="/Users/jeffery/project/zjc/flink-cdc-connectors/flink-connector-debezium/src/main/java/com/ververica/cdc/debezium/utils/DatabaseHistoryUtil.java">
+</file>
+<file name="/Users/jeffery/project/zjc/flink-cdc-connectors/flink-connector-debezium/src/main/java/com/ververica/cdc/debezium/table/DebeziumOptions.java">
+</file>
+<file name="/Users/jeffery/project/zjc/flink-cdc-connectors/flink-connector-debezium/src/main/java/com/ververica/cdc/debezium/table/WrapRowDataDebeziumDeserializeSchema.java">
+</file>
+<file name="/Users/jeffery/project/zjc/flink-cdc-connectors/flink-connector-debezium/src/main/java/com/ververica/cdc/debezium/table/AppendMetadataCollector.java">
+</file>
+<file name="/Users/jeffery/project/zjc/flink-cdc-connectors/flink-connector-debezium/src/main/java/com/ververica/cdc/debezium/table/DeserializationRuntimeConverter.java">
+</file>
+<file name="/Users/jeffery/project/zjc/flink-cdc-connectors/flink-connector-debezium/src/main/java/com/ververica/cdc/debezium/table/MetadataConverter.java">
+</file>
+<file name="/Users/jeffery/project/zjc/flink-cdc-connectors/flink-connector-debezium/src/main/java/com/ververica/cdc/debezium/table/DeserializationRuntimeConverterFactory.java">
+</file>
+<file name="/Users/jeffery/project/zjc/flink-cdc-connectors/flink-connector-debezium/src/main/java/com/ververica/cdc/debezium/table/RowDataDebeziumDeserializeSchema.java">
+</file>
+<file name="/Users/jeffery/project/zjc/flink-cdc-connectors/flink-connector-debezium/src/main/java/com/ververica/cdc/debezium/JsonDebeziumDeserializationSchema.java">
+</file>
+<file name="/Users/jeffery/project/zjc/flink-cdc-connectors/flink-connector-debezium/src/main/java/com/ververica/cdc/debezium/history/FlinkJsonTableChangeSerializer.java">
+</file>
+</checkstyle>

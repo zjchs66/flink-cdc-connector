@@ -1,0 +1,4 @@
+/Users/jeffery/project/zjc/flink-cdc-connectors/flink-connector-oracle-cdc/src/test/java/com/ververica/cdc/connectors/oracle/table/OracleConnectorITCase.java
+/Users/jeffery/project/zjc/flink-cdc-connectors/flink-connector-oracle-cdc/src/test/java/com/ververica/cdc/connectors/oracle/OracleSourceTest.java
+/Users/jeffery/project/zjc/flink-cdc-connectors/flink-connector-oracle-cdc/src/test/java/com/ververica/cdc/connectors/oracle/utils/OracleTestUtils.java
+/Users/jeffery/project/zjc/flink-cdc-connectors/flink-connector-oracle-cdc/src/test/java/com/ververica/cdc/connectors/oracle/table/OracleTableSourceFactoryTest.java

@@ -1,0 +1,8 @@
+/Users/jeffery/project/zjc/flink-cdc-connectors/flink-connector-sqlserver-cdc/src/main/java/com/ververica/cdc/connectors/sqlserver/table/StartupOptions.java
+/Users/jeffery/project/zjc/flink-cdc-connectors/flink-connector-sqlserver-cdc/src/main/java/com/ververica/cdc/connectors/sqlserver/table/SqlServerTableSource.java
+/Users/jeffery/project/zjc/flink-cdc-connectors/flink-connector-sqlserver-cdc/src/main/java/com/ververica/cdc/connectors/sqlserver/table/StartupMode.java
+/Users/jeffery/project/zjc/flink-cdc-connectors/flink-connector-sqlserver-cdc/src/main/java/com/ververica/cdc/connectors/sqlserver/table/SqlServerTableFactory.java
+/Users/jeffery/project/zjc/flink-cdc-connectors/flink-connector-sqlserver-cdc/src/main/java/com/ververica/cdc/connectors/sqlserver/table/SqlServerReadableMetadata.java
+/Users/jeffery/project/zjc/flink-cdc-connectors/flink-connector-sqlserver-cdc/src/main/java/com/ververica/cdc/connectors/sqlserver/table/SqlServerDeserializationConverterFactory.java
+/Users/jeffery/project/zjc/flink-cdc-connectors/flink-connector-sqlserver-cdc/src/main/java/com/ververica/cdc/connectors/sqlserver/SqlServerSource.java
+/Users/jeffery/project/zjc/flink-cdc-connectors/flink-connector-sqlserver-cdc/src/main/java/com/ververica/cdc/connectors/sqlserver/SqlServerValidator.java

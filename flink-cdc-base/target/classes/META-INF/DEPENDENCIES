@@ -1,0 +1,29 @@
+// ------------------------------------------------------------------
+// Transitive dependencies of this project determined from the
+// maven pom organized by organization.
+// ------------------------------------------------------------------
+
+flink-cdc-base
+
+
+From: 'an unknown organization'
+  - Awaitility (http://awaitility.org) org.awaitility:awaitility:jar:4.0.1
+    License: Apache 2.0  (LICENSE.txt)
+  - Hamcrest (http://hamcrest.org/JavaHamcrest/) org.hamcrest:hamcrest:jar:2.1
+    License: BSD Licence 3  (http://opensource.org/licenses/BSD-3-Clause)
+
+From: 'QOS.ch' (http://www.qos.ch)
+  - SLF4J API Module (http://www.slf4j.org) org.slf4j:slf4j-api:jar:1.7.15
+    License: MIT License  (http://www.opensource.org/licenses/mit-license.php)
+
+From: 'The Apache Software Foundation' (https://www.apache.org/)
+  - flink-shaded-guava-30 (http://flink.apache.org/flink-shaded-guava) org.apache.flink:flink-shaded-guava:jar:30.1.1-jre-16.0
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+
+From: 'Zaxxer.com' (https://github.com/brettwooldridge)
+  - HikariCP (https://github.com/brettwooldridge/HikariCP) com.zaxxer:HikariCP:bundle:4.0.3
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+
+
+
+

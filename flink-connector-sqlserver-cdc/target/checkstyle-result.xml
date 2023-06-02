@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="8.14">
+<file name="/Users/jeffery/project/zjc/flink-cdc-connectors/flink-connector-sqlserver-cdc/src/main/java/com/ververica/cdc/connectors/sqlserver/SqlServerValidator.java">
+</file>
+<file name="/Users/jeffery/project/zjc/flink-cdc-connectors/flink-connector-sqlserver-cdc/src/main/java/com/ververica/cdc/connectors/sqlserver/table/SqlServerDeserializationConverterFactory.java">
+</file>
+<file name="/Users/jeffery/project/zjc/flink-cdc-connectors/flink-connector-sqlserver-cdc/src/main/java/com/ververica/cdc/connectors/sqlserver/table/SqlServerTableFactory.java">
+</file>
+<file name="/Users/jeffery/project/zjc/flink-cdc-connectors/flink-connector-sqlserver-cdc/src/main/java/com/ververica/cdc/connectors/sqlserver/table/SqlServerTableSource.java">
+</file>
+<file name="/Users/jeffery/project/zjc/flink-cdc-connectors/flink-connector-sqlserver-cdc/src/main/java/com/ververica/cdc/connectors/sqlserver/table/StartupMode.java">
+</file>
+<file name="/Users/jeffery/project/zjc/flink-cdc-connectors/flink-connector-sqlserver-cdc/src/main/java/com/ververica/cdc/connectors/sqlserver/table/SqlServerReadableMetadata.java">
+</file>
+<file name="/Users/jeffery/project/zjc/flink-cdc-connectors/flink-connector-sqlserver-cdc/src/main/java/com/ververica/cdc/connectors/sqlserver/table/StartupOptions.java">
+</file>
+<file name="/Users/jeffery/project/zjc/flink-cdc-connectors/flink-connector-sqlserver-cdc/src/main/java/com/ververica/cdc/connectors/sqlserver/SqlServerSource.java">
+</file>
+<file name="/Users/jeffery/project/zjc/flink-cdc-connectors/flink-connector-sqlserver-cdc/src/test/java/com/ververica/cdc/connectors/sqlserver/SqlServerTestBase.java">
+</file>
+<file name="/Users/jeffery/project/zjc/flink-cdc-connectors/flink-connector-sqlserver-cdc/src/test/java/com/ververica/cdc/connectors/sqlserver/table/SqlServerConnectorITCase.java">
+</file>
+<file name="/Users/jeffery/project/zjc/flink-cdc-connectors/flink-connector-sqlserver-cdc/src/test/java/com/ververica/cdc/connectors/sqlserver/table/SqlServerTimezoneITCase.java">
+</file>
+<file name="/Users/jeffery/project/zjc/flink-cdc-connectors/flink-connector-sqlserver-cdc/src/test/java/com/ververica/cdc/connectors/sqlserver/table/SqlServerTableFactoryTest.java">
+</file>
+<file name="/Users/jeffery/project/zjc/flink-cdc-connectors/flink-connector-sqlserver-cdc/src/test/resources/log4j2-test.properties">
+</file>
+</checkstyle>

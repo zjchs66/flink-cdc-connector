@@ -1,0 +1,9 @@
+/Users/jeffery/project/zjc/flink-cdc-connectors/flink-connector-mongodb-cdc/src/test/java/com/ververica/cdc/connectors/mongodb/table/MongoDBTimeZoneITCase.java
+/Users/jeffery/project/zjc/flink-cdc-connectors/flink-connector-mongodb-cdc/src/test/java/com/ververica/cdc/connectors/mongodb/MongoDBSourceTest.java
+/Users/jeffery/project/zjc/flink-cdc-connectors/flink-connector-mongodb-cdc/src/test/java/com/ververica/cdc/connectors/mongodb/utils/MongoDBAssertUtils.java
+/Users/jeffery/project/zjc/flink-cdc-connectors/flink-connector-mongodb-cdc/src/test/java/com/ververica/cdc/connectors/mongodb/table/MongoDBConnectorITCase.java
+/Users/jeffery/project/zjc/flink-cdc-connectors/flink-connector-mongodb-cdc/src/test/java/com/ververica/cdc/connectors/mongodb/utils/MongoDBContainer.java
+/Users/jeffery/project/zjc/flink-cdc-connectors/flink-connector-mongodb-cdc/src/test/java/com/ververica/cdc/connectors/mongodb/table/MongoDBTableFactoryTest.java
+/Users/jeffery/project/zjc/flink-cdc-connectors/flink-connector-mongodb-cdc/src/test/java/com/ververica/cdc/connectors/mongodb/table/MongoDBRegexFilterITCase.java
+/Users/jeffery/project/zjc/flink-cdc-connectors/flink-connector-mongodb-cdc/src/test/java/com/ververica/cdc/connectors/mongodb/utils/MongoDBTestUtils.java
+/Users/jeffery/project/zjc/flink-cdc-connectors/flink-connector-mongodb-cdc/src/test/java/com/ververica/cdc/connectors/mongodb/MongoDBTestBase.java

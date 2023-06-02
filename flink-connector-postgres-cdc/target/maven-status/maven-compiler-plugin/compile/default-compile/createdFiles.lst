@@ -1,0 +1,10 @@
+com/ververica/cdc/connectors/postgres/table/PostgreSQLReadableMetadata$2.class
+com/ververica/cdc/connectors/postgres/table/PostgreSQLReadableMetadata.class
+com/ververica/cdc/connectors/postgres/table/PostgreSQLReadableMetadata$1.class
+com/ververica/cdc/connectors/postgres/table/PostgreSQLTableSource.class
+com/ververica/cdc/connectors/postgres/PostgreSQLSource$Builder.class
+com/ververica/cdc/connectors/postgres/PostgreSQLSource.class
+com/ververica/cdc/connectors/postgres/table/PostgresValueValidator.class
+com/ververica/cdc/connectors/postgres/table/PostgreSQLReadableMetadata$4.class
+com/ververica/cdc/connectors/postgres/table/PostgreSQLTableFactory.class
+com/ververica/cdc/connectors/postgres/table/PostgreSQLReadableMetadata$3.class

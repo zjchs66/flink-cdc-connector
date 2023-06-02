@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="8.14">
+<file name="/Users/jeffery/project/zjc/flink-cdc-connectors/flink-connector-oracle-cdc/src/main/java/com/ververica/cdc/connectors/oracle/OracleValidator.java">
+</file>
+<file name="/Users/jeffery/project/zjc/flink-cdc-connectors/flink-connector-oracle-cdc/src/main/java/com/ververica/cdc/connectors/oracle/OracleSource.java">
+</file>
+<file name="/Users/jeffery/project/zjc/flink-cdc-connectors/flink-connector-oracle-cdc/src/main/java/com/ververica/cdc/connectors/oracle/table/OracleDeserializationConverterFactory.java">
+</file>
+<file name="/Users/jeffery/project/zjc/flink-cdc-connectors/flink-connector-oracle-cdc/src/main/java/com/ververica/cdc/connectors/oracle/table/StartupMode.java">
+</file>
+<file name="/Users/jeffery/project/zjc/flink-cdc-connectors/flink-connector-oracle-cdc/src/main/java/com/ververica/cdc/connectors/oracle/table/OracleTableSourceFactory.java">
+</file>
+<file name="/Users/jeffery/project/zjc/flink-cdc-connectors/flink-connector-oracle-cdc/src/main/java/com/ververica/cdc/connectors/oracle/table/OracleTableSource.java">
+</file>
+<file name="/Users/jeffery/project/zjc/flink-cdc-connectors/flink-connector-oracle-cdc/src/main/java/com/ververica/cdc/connectors/oracle/table/StartupOptions.java">
+</file>
+<file name="/Users/jeffery/project/zjc/flink-cdc-connectors/flink-connector-oracle-cdc/src/main/java/com/ververica/cdc/connectors/oracle/table/OracleReadableMetaData.java">
+</file>
+<file name="/Users/jeffery/project/zjc/flink-cdc-connectors/flink-connector-oracle-cdc/src/test/java/com/ververica/cdc/connectors/oracle/OracleSourceTest.java">
+</file>
+<file name="/Users/jeffery/project/zjc/flink-cdc-connectors/flink-connector-oracle-cdc/src/test/java/com/ververica/cdc/connectors/oracle/utils/OracleTestUtils.java">
+</file>
+<file name="/Users/jeffery/project/zjc/flink-cdc-connectors/flink-connector-oracle-cdc/src/test/java/com/ververica/cdc/connectors/oracle/table/OracleTableSourceFactoryTest.java">
+</file>
+<file name="/Users/jeffery/project/zjc/flink-cdc-connectors/flink-connector-oracle-cdc/src/test/java/com/ververica/cdc/connectors/oracle/table/OracleConnectorITCase.java">
+</file>
+<file name="/Users/jeffery/project/zjc/flink-cdc-connectors/flink-connector-oracle-cdc/src/test/resources/log4j2-test.properties">
+</file>
+</checkstyle>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/flink-cdc-base/flink-cdc-base.iml" filepath="$PROJECT_DIR$/flink-cdc-base/flink-cdc-base.iml" />
+      <module fileurl="file://$PROJECT_DIR$/flink-cdc-connectors.iml" filepath="$PROJECT_DIR$/flink-cdc-connectors.iml" />
+      <module fileurl="file://$PROJECT_DIR$/flink-cdc-e2e-tests/flink-cdc-e2e-tests.iml" filepath="$PROJECT_DIR$/flink-cdc-e2e-tests/flink-cdc-e2e-tests.iml" />
+      <module fileurl="file://$PROJECT_DIR$/flink-connector-debezium/flink-connector-debezium.iml" filepath="$PROJECT_DIR$/flink-connector-debezium/flink-connector-debezium.iml" />
+      <module fileurl="file://$PROJECT_DIR$/flink-connector-kingbase86-cdc/flink-connector-kingbase86-cdc.iml" filepath="$PROJECT_DIR$/flink-connector-kingbase86-cdc/flink-connector-kingbase86-cdc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/flink-connector-mongodb-cdc/flink-connector-mongodb-cdc.iml" filepath="$PROJECT_DIR$/flink-connector-mongodb-cdc/flink-connector-mongodb-cdc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/flink-connector-mysql-cdc/flink-connector-mysql-cdc.iml" filepath="$PROJECT_DIR$/flink-connector-mysql-cdc/flink-connector-mysql-cdc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/flink-connector-oceanbase-cdc/flink-connector-oceanbase-cdc.iml" filepath="$PROJECT_DIR$/flink-connector-oceanbase-cdc/flink-connector-oceanbase-cdc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/flink-connector-oracle-cdc/flink-connector-oracle-cdc.iml" filepath="$PROJECT_DIR$/flink-connector-oracle-cdc/flink-connector-oracle-cdc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/flink-connector-postgres-cdc/flink-connector-postgres-cdc.iml" filepath="$PROJECT_DIR$/flink-connector-postgres-cdc/flink-connector-postgres-cdc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/flink-connector-sqlserver-cdc/flink-connector-sqlserver-cdc.iml" filepath="$PROJECT_DIR$/flink-connector-sqlserver-cdc/flink-connector-sqlserver-cdc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/flink-connector-test-util/flink-connector-test-util.iml" filepath="$PROJECT_DIR$/flink-connector-test-util/flink-connector-test-util.iml" />
+      <module fileurl="file://$PROJECT_DIR$/flink-connector-tidb-cdc/flink-connector-tidb-cdc.iml" filepath="$PROJECT_DIR$/flink-connector-tidb-cdc/flink-connector-tidb-cdc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/flink-sql-connector-kingbase86-cdc/flink-sql-connector-kingbase86-cdc.iml" filepath="$PROJECT_DIR$/flink-sql-connector-kingbase86-cdc/flink-sql-connector-kingbase86-cdc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/flink-sql-connector-mongodb-cdc/flink-sql-connector-mongodb-cdc.iml" filepath="$PROJECT_DIR$/flink-sql-connector-mongodb-cdc/flink-sql-connector-mongodb-cdc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/flink-sql-connector-mysql-cdc/flink-sql-connector-mysql-cdc.iml" filepath="$PROJECT_DIR$/flink-sql-connector-mysql-cdc/flink-sql-connector-mysql-cdc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/flink-sql-connector-oceanbase-cdc/flink-sql-connector-oceanbase-cdc.iml" filepath="$PROJECT_DIR$/flink-sql-connector-oceanbase-cdc/flink-sql-connector-oceanbase-cdc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/flink-sql-connector-oracle-cdc/flink-sql-connector-oracle-cdc.iml" filepath="$PROJECT_DIR$/flink-sql-connector-oracle-cdc/flink-sql-connector-oracle-cdc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/flink-sql-connector-postgres-cdc/flink-sql-connector-postgres-cdc.iml" filepath="$PROJECT_DIR$/flink-sql-connector-postgres-cdc/flink-sql-connector-postgres-cdc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/flink-sql-connector-sqlserver-cdc/flink-sql-connector-sqlserver-cdc.iml" filepath="$PROJECT_DIR$/flink-sql-connector-sqlserver-cdc/flink-sql-connector-sqlserver-cdc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/flink-sql-connector-tidb-cdc/flink-sql-connector-tidb-cdc.iml" filepath="$PROJECT_DIR$/flink-sql-connector-tidb-cdc/flink-sql-connector-tidb-cdc.iml" />
+    </modules>
+  </component>
+</project>

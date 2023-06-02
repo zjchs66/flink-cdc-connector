@@ -1,0 +1,17 @@
+com/ververica/cdc/connectors/oracle/OracleSourceTest.class
+com/ververica/cdc/connectors/oracle/OracleSourceTest$4.class
+com/ververica/cdc/connectors/oracle/OracleSourceTest$TestingListState.class
+com/ververica/cdc/connectors/oracle/OracleSourceTest$3.class
+com/ververica/cdc/connectors/oracle/table/OracleTableSourceFactoryTest.class
+com/ververica/cdc/connectors/oracle/utils/OracleTestUtils.class
+com/ververica/cdc/connectors/oracle/OracleSourceTest$5.class
+com/ververica/cdc/connectors/oracle/OracleSourceTest$2.class
+com/ververica/cdc/connectors/oracle/OracleSourceTest$6.class
+com/ververica/cdc/connectors/oracle/OracleSourceTest$MockOperatorStateStore.class
+com/ververica/cdc/connectors/oracle/OracleSourceTest$BlockingSourceContext.class
+com/ververica/cdc/connectors/oracle/OracleSourceTest$ForwardDeserializeSchema.class
+com/ververica/cdc/connectors/oracle/table/OracleConnectorITCase.class
+com/ververica/cdc/connectors/oracle/OracleSourceTest$1.class
+com/ververica/cdc/connectors/oracle/OracleSourceTest$MockFunctionInitializationContext.class
+com/ververica/cdc/connectors/oracle/OracleSourceTest$7.class
+com/ververica/cdc/connectors/oracle/OracleSourceTest$8.class

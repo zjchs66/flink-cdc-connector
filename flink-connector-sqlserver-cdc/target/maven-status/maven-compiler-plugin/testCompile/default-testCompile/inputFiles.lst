@@ -1,0 +1,4 @@
+/Users/jeffery/project/zjc/flink-cdc-connectors/flink-connector-sqlserver-cdc/src/test/java/com/ververica/cdc/connectors/sqlserver/table/SqlServerTableFactoryTest.java
+/Users/jeffery/project/zjc/flink-cdc-connectors/flink-connector-sqlserver-cdc/src/test/java/com/ververica/cdc/connectors/sqlserver/table/SqlServerTimezoneITCase.java
+/Users/jeffery/project/zjc/flink-cdc-connectors/flink-connector-sqlserver-cdc/src/test/java/com/ververica/cdc/connectors/sqlserver/table/SqlServerConnectorITCase.java
+/Users/jeffery/project/zjc/flink-cdc-connectors/flink-connector-sqlserver-cdc/src/test/java/com/ververica/cdc/connectors/sqlserver/SqlServerTestBase.java

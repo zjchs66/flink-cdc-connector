@@ -1,0 +1,610 @@
+
+*****************************************************
+Summary
+-------
+Generated at: 2023-04-17T17:42:10+08:00
+
+Notes: 9
+Binaries: 16
+Archives: 0
+Standards: 433
+
+Apache Licensed: 430
+Generated Documents: 0
+
+JavaDocs are generated, thus a license header is optional.
+Generated files do not require license headers.
+
+3 Unknown Licenses
+
+*****************************************************
+
+Files with unapproved licenses:
+
+  flink-sql-connector-kingbase86-cdc/pom.xml
+  flink-connector-kingbase86-cdc/pom.xml
+  com/ververica/cdc/debezium/table/annotations.xml
+
+*****************************************************
+
+*****************************************************
+  Files with Apache License headers will be marked AL
+  Binary files (which do not require any license headers) will be marked B
+  Compressed archives will be marked A
+  Notices, licenses etc. will be marked N
+ !????? flink-sql-connector-kingbase86-cdc/pom.xml
+  N     flink-sql-connector-kingbase86-cdc/src/main/resources/META-INF/NOTICE
+  AL    flink-sql-connector-kingbase86-cdc/src/main/java/com/ververica/cdc/connectors/kingbase86/DummyDocs.java
+  AL    flink-connector-mongodb-cdc/pom.xml
+  AL    flink-connector-mongodb-cdc/src/test/resources/docker/random.key
+  AL    flink-connector-mongodb-cdc/src/test/resources/docker/setup.js
+  AL    flink-connector-mongodb-cdc/src/test/resources/ddl/column_type_test.js
+  AL    flink-connector-mongodb-cdc/src/test/resources/ddl/ns_regex.js
+  AL    flink-connector-mongodb-cdc/src/test/resources/ddl/inventory.js
+  AL    flink-connector-mongodb-cdc/src/test/resources/log4j2-test.properties
+  AL    flink-connector-mongodb-cdc/src/test/java/com/ververica/cdc/connectors/mongodb/MongoDBSourceTest.java
+  AL    flink-connector-mongodb-cdc/src/test/java/com/ververica/cdc/connectors/mongodb/MongoDBTestBase.java
+  AL    flink-connector-mongodb-cdc/src/test/java/com/ververica/cdc/connectors/mongodb/utils/MongoDBTestUtils.java
+  AL    flink-connector-mongodb-cdc/src/test/java/com/ververica/cdc/connectors/mongodb/utils/MongoDBAssertUtils.java
+  AL    flink-connector-mongodb-cdc/src/test/java/com/ververica/cdc/connectors/mongodb/utils/MongoDBContainer.java
+  AL    flink-connector-mongodb-cdc/src/test/java/com/ververica/cdc/connectors/mongodb/table/MongoDBTimeZoneITCase.java
+  AL    flink-connector-mongodb-cdc/src/test/java/com/ververica/cdc/connectors/mongodb/table/MongoDBTableFactoryTest.java
+  AL    flink-connector-mongodb-cdc/src/test/java/com/ververica/cdc/connectors/mongodb/table/MongoDBRegexFilterITCase.java
+  AL    flink-connector-mongodb-cdc/src/test/java/com/ververica/cdc/connectors/mongodb/table/MongoDBConnectorITCase.java
+  AL    flink-connector-mongodb-cdc/src/main/resources/META-INF/services/org.apache.flink.table.factories.Factory
+  AL    flink-connector-mongodb-cdc/src/main/java/com/ververica/cdc/connectors/mongodb/internal/MongoDBConnectorSourceTask.java
+  AL    flink-connector-mongodb-cdc/src/main/java/com/ververica/cdc/connectors/mongodb/internal/MongoDBConnectorSourceConnector.java
+  AL    flink-connector-mongodb-cdc/src/main/java/com/ververica/cdc/connectors/mongodb/internal/MongoDBEnvelope.java
+  AL    flink-connector-mongodb-cdc/src/main/java/com/ververica/cdc/connectors/mongodb/utils/CollectionDiscoveryUtils.java
+  AL    flink-connector-mongodb-cdc/src/main/java/com/ververica/cdc/connectors/mongodb/MongoDBSource.java
+  AL    flink-connector-mongodb-cdc/src/main/java/com/ververica/cdc/connectors/mongodb/table/MongoDBTableSource.java
+  AL    flink-connector-mongodb-cdc/src/main/java/com/ververica/cdc/connectors/mongodb/table/MongoDBReadableMetadata.java
+  AL    flink-connector-mongodb-cdc/src/main/java/com/ververica/cdc/connectors/mongodb/table/MongoDBTableSourceFactory.java
+  AL    flink-connector-mongodb-cdc/src/main/java/com/ververica/cdc/connectors/mongodb/table/MongoDBConnectorDeserializationSchema.java
+  AL    flink-sql-connector-sqlserver-cdc/pom.xml
+  N     flink-sql-connector-sqlserver-cdc/src/main/resources/META-INF/NOTICE
+  AL    flink-sql-connector-sqlserver-cdc/src/main/java/com/ververica/cdc/connectors/sqlserver/DummyDocs.java
+  AL    flink-connector-oracle-cdc/pom.xml
+  AL    flink-connector-oracle-cdc/src/test/resources/docker/Dockerfile
+  AL    flink-connector-oracle-cdc/src/test/resources/docker/assets/activate-archivelog.sql
+  AL    flink-connector-oracle-cdc/src/test/resources/docker/assets/activate-archivelog.sh
+  AL    flink-connector-oracle-cdc/src/test/resources/log4j2-test.properties
+  AL    flink-connector-oracle-cdc/src/test/java/com/ververica/cdc/connectors/oracle/OracleSourceTest.java
+  AL    flink-connector-oracle-cdc/src/test/java/com/ververica/cdc/connectors/oracle/utils/OracleTestUtils.java
+  AL    flink-connector-oracle-cdc/src/test/java/com/ververica/cdc/connectors/oracle/table/OracleTableSourceFactoryTest.java
+  AL    flink-connector-oracle-cdc/src/test/java/com/ververica/cdc/connectors/oracle/table/OracleConnectorITCase.java
+  AL    flink-connector-oracle-cdc/src/main/resources/META-INF/services/org.apache.flink.table.factories.Factory
+  AL    flink-connector-oracle-cdc/src/main/java/com/ververica/cdc/connectors/oracle/OracleValidator.java
+  AL    flink-connector-oracle-cdc/src/main/java/com/ververica/cdc/connectors/oracle/OracleSource.java
+  AL    flink-connector-oracle-cdc/src/main/java/com/ververica/cdc/connectors/oracle/table/OracleDeserializationConverterFactory.java
+  AL    flink-connector-oracle-cdc/src/main/java/com/ververica/cdc/connectors/oracle/table/StartupMode.java
+  AL    flink-connector-oracle-cdc/src/main/java/com/ververica/cdc/connectors/oracle/table/OracleTableSourceFactory.java
+  AL    flink-connector-oracle-cdc/src/main/java/com/ververica/cdc/connectors/oracle/table/OracleTableSource.java
+  AL    flink-connector-oracle-cdc/src/main/java/com/ververica/cdc/connectors/oracle/table/StartupOptions.java
+  AL    flink-connector-oracle-cdc/src/main/java/com/ververica/cdc/connectors/oracle/table/OracleReadableMetaData.java
+  AL    flink-connector-test-util/pom.xml
+  AL    flink-connector-test-util/src/main/java/com/ververica/cdc/connectors/utils/TestSourceContext.java
+  AL    flink-connector-test-util/src/main/java/com/ververica/cdc/connectors/utils/AssertUtils.java
+  AL    tools/azure-pipelines/create_build_artifact.sh
+  AL    tools/azure-pipelines/uploading_watchdog.sh
+  AL    tools/azure-pipelines/jobs-template-for-self-hosted-agent.yml
+  AL    tools/azure-pipelines/debug_files_utils.sh
+  AL    tools/azure-pipelines/jobs-template.yml
+  AL    tools/azure-pipelines/unpack_build_artifact.sh
+  AL    tools/ci/compile.sh
+  AL    tools/ci/stage.sh
+  AL    tools/ci/controller_utils.sh
+  AL    tools/ci/test_controller.sh
+  AL    tools/ci/google-mirror-settings.xml
+  AL    tools/ci/watchdog.sh
+  AL    tools/ci/maven-utils.sh
+  AL    tools/ci/log4j.properties
+  AL    tools/maven/suppressions.xml
+  AL    tools/maven/checkstyle.xml
+  N     LICENSE
+  AL    flink-sql-connector-oceanbase-cdc/pom.xml
+  N     flink-sql-connector-oceanbase-cdc/src/main/resources/META-INF/NOTICE
+  AL    flink-sql-connector-oceanbase-cdc/src/main/java/com/ververica/cdc/connectors/oceanbase/DummyDocs.java
+ !????? flink-connector-kingbase86-cdc/pom.xml
+  AL    flink-connector-kingbase86-cdc/src/main/resources/META-INF/services/org.apache.flink.table.factories.Factory
+  AL    flink-connector-kingbase86-cdc/src/main/java/com/ververica/cdc/connectors/kingbase86/table/PostgreSQLTableSource.java
+  AL    flink-connector-kingbase86-cdc/src/main/java/com/ververica/cdc/connectors/kingbase86/table/PostgresValueValidator.java
+  AL    flink-connector-kingbase86-cdc/src/main/java/com/ververica/cdc/connectors/kingbase86/table/PostgreSQLTableFactory.java
+  AL    flink-connector-kingbase86-cdc/src/main/java/com/ververica/cdc/connectors/kingbase86/table/PostgreSQLReadableMetadata.java
+  AL    flink-connector-kingbase86-cdc/src/main/java/com/ververica/cdc/connectors/kingbase86/PostgreSQLSource.java
+  AL    flink-sql-connector-postgres-cdc/pom.xml
+  N     flink-sql-connector-postgres-cdc/src/main/resources/META-INF/NOTICE
+  AL    flink-sql-connector-postgres-cdc/src/main/java/com/ververica/cdc/connectors/postgres/DummyDocs.java
+  AL    flink-cdc-e2e-tests/pom.xml
+  AL    flink-cdc-e2e-tests/src/test/resources/docker/tidb/pd.toml
+  AL    flink-cdc-e2e-tests/src/test/resources/docker/tidb/tikv.toml
+  AL    flink-cdc-e2e-tests/src/test/resources/docker/tidb/tidb.toml
+  AL    flink-cdc-e2e-tests/src/test/resources/docker/mysql/my.cnf
+  AL    flink-cdc-e2e-tests/src/test/resources/docker/mysql/setup.sql
+  AL    flink-cdc-e2e-tests/src/test/resources/ddl/postgres_inventory.sql
+  AL    flink-cdc-e2e-tests/src/test/resources/ddl/tidb_inventory.sql
+  AL    flink-cdc-e2e-tests/src/test/resources/ddl/mongo_inventory.js
+  AL    flink-cdc-e2e-tests/src/test/resources/ddl/mysql_inventory.sql
+  AL    flink-cdc-e2e-tests/src/test/resources/ddl/sqlserver_inventory.sql
+  AL    flink-cdc-e2e-tests/src/test/java/com/ververica/cdc/connectors/tests/PostgresE2eITCase.java
+  AL    flink-cdc-e2e-tests/src/test/java/com/ververica/cdc/connectors/tests/utils/TestUtils.java
+  AL    flink-cdc-e2e-tests/src/test/java/com/ververica/cdc/connectors/tests/utils/FlinkContainerTestEnvironment.java
+  AL    flink-cdc-e2e-tests/src/test/java/com/ververica/cdc/connectors/tests/utils/ParameterProperty.java
+  AL    flink-cdc-e2e-tests/src/test/java/com/ververica/cdc/connectors/tests/utils/SQLJobSubmission.java
+  AL    flink-cdc-e2e-tests/src/test/java/com/ververica/cdc/connectors/tests/utils/JdbcProxy.java
+  AL    flink-cdc-e2e-tests/src/test/java/com/ververica/cdc/connectors/tests/TiDBE2eITCase.java
+  AL    flink-cdc-e2e-tests/src/test/java/com/ververica/cdc/connectors/tests/MongoE2eITCase.java
+  AL    flink-cdc-e2e-tests/src/test/java/com/ververica/cdc/connectors/tests/MySqlE2eITCase.java
+  AL    flink-cdc-e2e-tests/src/test/java/com/ververica/cdc/connectors/tests/OracleE2eITCase.java
+  AL    flink-cdc-e2e-tests/src/test/java/com/ververica/cdc/connectors/tests/SqlServerE2eITCase.java
+  AL    flink-connector-debezium/pom.xml
+  AL    flink-connector-debezium/src/main/java/io/debezium/embedded/EmbeddedEngineChangeEvent.java
+  AL    flink-connector-debezium/src/main/java/com/ververica/cdc/debezium/DebeziumDeserializationSchema.java
+  AL    flink-connector-debezium/src/main/java/com/ververica/cdc/debezium/StringDebeziumDeserializationSchema.java
+  AL    flink-connector-debezium/src/main/java/com/ververica/cdc/debezium/Validator.java
+  AL    flink-connector-debezium/src/main/java/com/ververica/cdc/debezium/internal/Handover.java
+  AL    flink-connector-debezium/src/main/java/com/ververica/cdc/debezium/internal/FlinkDatabaseHistory.java
+  AL    flink-connector-debezium/src/main/java/com/ververica/cdc/debezium/internal/FlinkDatabaseSchemaHistory.java
+  AL    flink-connector-debezium/src/main/java/com/ververica/cdc/debezium/internal/FlinkOffsetBackingStore.java
+  AL    flink-connector-debezium/src/main/java/com/ververica/cdc/debezium/internal/DebeziumOffsetSerializer.java
+  AL    flink-connector-debezium/src/main/java/com/ververica/cdc/debezium/internal/DebeziumChangeFetcher.java
+  AL    flink-connector-debezium/src/main/java/com/ververica/cdc/debezium/internal/DebeziumOffset.java
+  AL    flink-connector-debezium/src/main/java/com/ververica/cdc/debezium/internal/DebeziumChangeConsumer.java
+  AL    flink-connector-debezium/src/main/java/com/ververica/cdc/debezium/internal/SchemaRecord.java
+  AL    flink-connector-debezium/src/main/java/com/ververica/cdc/debezium/DebeziumSourceFunction.java
+  AL    flink-connector-debezium/src/main/java/com/ververica/cdc/debezium/utils/TemporalConversions.java
+  AL    flink-connector-debezium/src/main/java/com/ververica/cdc/debezium/utils/DatabaseHistoryUtil.java
+  AL    flink-connector-debezium/src/main/java/com/ververica/cdc/debezium/table/DebeziumOptions.java
+  AL    flink-connector-debezium/src/main/java/com/ververica/cdc/debezium/table/WrapRowDataDebeziumDeserializeSchema.java
+  AL    flink-connector-debezium/src/main/java/com/ververica/cdc/debezium/table/AppendMetadataCollector.java
+  AL    flink-connector-debezium/src/main/java/com/ververica/cdc/debezium/table/DeserializationRuntimeConverter.java
+  AL    flink-connector-debezium/src/main/java/com/ververica/cdc/debezium/table/MetadataConverter.java
+  AL    flink-connector-debezium/src/main/java/com/ververica/cdc/debezium/table/DeserializationRuntimeConverterFactory.java
+  AL    flink-connector-debezium/src/main/java/com/ververica/cdc/debezium/table/RowDataDebeziumDeserializeSchema.java
+  AL    flink-connector-debezium/src/main/java/com/ververica/cdc/debezium/JsonDebeziumDeserializationSchema.java
+  AL    flink-connector-debezium/src/main/java/com/ververica/cdc/debezium/history/FlinkJsonTableChangeSerializer.java
+  AL    flink-sql-connector-mongodb-cdc/pom.xml
+  N     flink-sql-connector-mongodb-cdc/src/main/resources/META-INF/NOTICE
+  AL    flink-sql-connector-mongodb-cdc/src/main/java/com/ververica/cdc/connectors/mongodb/DummyDocs.java
+  AL    pom.xml
+  AL    docs/_templates/breadcrumbs.html
+  AL    docs/_templates/versions.html
+  AL    docs/conf.py
+  B     docs/_static/fig/flinkcdc.png
+  B     docs/_static/fig/real-time-data-lake-tutorial/flink-sql-client.png
+  B     docs/_static/fig/real-time-data-lake-tutorial/final-data-in-iceberg.png
+  B     docs/_static/fig/real-time-data-lake-tutorial/flink-cdc-iceberg-running-job.png
+  B     docs/_static/fig/real-time-data-lake-tutorial/real-time-data-lake-tutorial.png
+  B     docs/_static/fig/real-time-data-lake-tutorial/files-in-iceberg.png
+  B     docs/_static/fig/real-time-data-lake-tutorial/flink-ui.png
+  B     docs/_static/fig/real-time-data-lake-tutorial/data_in_iceberg.png
+  B     docs/_static/fig/mysql-postgress-tutorial/kibana-detailed-orders.png
+  B     docs/_static/fig/mysql-postgress-tutorial/flink-sql-client.png
+  B     docs/_static/fig/mysql-postgress-tutorial/kibana-detailed-orders-changes.gif
+  B     docs/_static/fig/mysql-postgress-tutorial/kibana-create-index-pattern.png
+  B     docs/_static/fig/mysql-postgress-tutorial/flink-ui.png
+  B     docs/_static/fig/mysql-postgress-tutorial/kafka-gmv-changes.gif
+  B     docs/_static/fig/mysql-postgress-tutorial/flink-cdc-streaming-etl.png
+  B     docs/_static/fig/favicon.png
+  AL    docs/_static/theme_overrides.css
+  AL    docs/build_docs.sh
+  AL    docs/docs_site.sh
+  N     NOTICE
+  AL    azure-pipelines.yml
+  AL    flink-connector-tidb-cdc/pom.xml
+  AL    flink-connector-tidb-cdc/src/test/resources/config/pd.toml
+  AL    flink-connector-tidb-cdc/src/test/resources/config/tikv.toml
+  AL    flink-connector-tidb-cdc/src/test/resources/config/tidb.toml
+  AL    flink-connector-tidb-cdc/src/test/resources/ddl/inventory.sql
+  AL    flink-connector-tidb-cdc/src/test/resources/ddl/column_type_test.sql
+  AL    flink-connector-tidb-cdc/src/test/resources/log4j2-test.properties
+  AL    flink-connector-tidb-cdc/src/test/java/com/ververica/cdc/connectors/tidb/TiDBTestBase.java
+  AL    flink-connector-tidb-cdc/src/test/java/com/ververica/cdc/connectors/tidb/table/TiDBConnectorITCase.java
+  AL    flink-connector-tidb-cdc/src/test/java/com/ververica/cdc/connectors/tidb/table/TiDBTableSourceFactoryTest.java
+  AL    flink-connector-tidb-cdc/src/main/resources/META-INF/services/org.apache.flink.table.factories.Factory
+  AL    flink-connector-tidb-cdc/src/main/java/com/ververica/cdc/connectors/tidb/TiDBSource.java
+  AL    flink-connector-tidb-cdc/src/main/java/com/ververica/cdc/connectors/tidb/TDBSourceOptions.java
+  AL    flink-connector-tidb-cdc/src/main/java/com/ververica/cdc/connectors/tidb/TiKVRichParallelSourceFunction.java
+  AL    flink-connector-tidb-cdc/src/main/java/com/ververica/cdc/connectors/tidb/TiKVSnapshotEventDeserializationSchema.java
+  AL    flink-connector-tidb-cdc/src/main/java/com/ververica/cdc/connectors/tidb/table/RowDataTiKVChangeEventDeserializationSchema.java
+  AL    flink-connector-tidb-cdc/src/main/java/com/ververica/cdc/connectors/tidb/table/TiDBTableSourceFactory.java
+  AL    flink-connector-tidb-cdc/src/main/java/com/ververica/cdc/connectors/tidb/table/RowDataTiKVEventDeserializationSchemaBase.java
+  AL    flink-connector-tidb-cdc/src/main/java/com/ververica/cdc/connectors/tidb/table/TiKVReadableMetadata.java
+  AL    flink-connector-tidb-cdc/src/main/java/com/ververica/cdc/connectors/tidb/table/TiKVAppendMetadataCollector.java
+  AL    flink-connector-tidb-cdc/src/main/java/com/ververica/cdc/connectors/tidb/table/TiKVMetadataConverter.java
+  AL    flink-connector-tidb-cdc/src/main/java/com/ververica/cdc/connectors/tidb/table/utils/TableKeyRangeUtils.java
+  AL    flink-connector-tidb-cdc/src/main/java/com/ververica/cdc/connectors/tidb/table/StartupMode.java
+  AL    flink-connector-tidb-cdc/src/main/java/com/ververica/cdc/connectors/tidb/table/TiKVDeserializationRuntimeConverter.java
+  AL    flink-connector-tidb-cdc/src/main/java/com/ververica/cdc/connectors/tidb/table/StartupOptions.java
+  AL    flink-connector-tidb-cdc/src/main/java/com/ververica/cdc/connectors/tidb/table/RowDataTiKVSnapshotEventDeserializationSchema.java
+  AL    flink-connector-tidb-cdc/src/main/java/com/ververica/cdc/connectors/tidb/table/TiDBTableSource.java
+  AL    flink-connector-tidb-cdc/src/main/java/com/ververica/cdc/connectors/tidb/TiKVChangeEventDeserializationSchema.java
+  AL    flink-sql-connector-oracle-cdc/pom.xml
+  N     flink-sql-connector-oracle-cdc/src/main/resources/META-INF/NOTICE
+  AL    flink-sql-connector-oracle-cdc/src/main/java/com/ververica/cdc/connectors/oracle/DummyDocs.java
+  AL    flink-connector-oceanbase-cdc/pom.xml
+  AL    flink-connector-oceanbase-cdc/src/test/resources/ddl/inventory_meta.sql
+  AL    flink-connector-oceanbase-cdc/src/test/resources/ddl/inventory.sql
+  AL    flink-connector-oceanbase-cdc/src/test/resources/ddl/column_type_test.sql
+  AL    flink-connector-oceanbase-cdc/src/test/resources/log4j2-test.properties
+  AL    flink-connector-oceanbase-cdc/src/test/java/com/ververica/cdc/connectors/oceanbase/OceanBaseTestBase.java
+  AL    flink-connector-oceanbase-cdc/src/test/java/com/ververica/cdc/connectors/oceanbase/table/OceanBaseTableFactoryTest.java
+  AL    flink-connector-oceanbase-cdc/src/test/java/com/ververica/cdc/connectors/oceanbase/table/OceanBaseConnectorITCase.java
+  AL    flink-connector-oceanbase-cdc/src/main/resources/META-INF/services/org.apache.flink.table.factories.Factory
+  AL    flink-connector-oceanbase-cdc/src/main/java/com/ververica/cdc/connectors/oceanbase/OceanBaseSource.java
+  AL    flink-connector-oceanbase-cdc/src/main/java/com/ververica/cdc/connectors/oceanbase/source/OceanBaseConnection.java
+  AL    flink-connector-oceanbase-cdc/src/main/java/com/ververica/cdc/connectors/oceanbase/source/OceanBaseJdbcConverter.java
+  AL    flink-connector-oceanbase-cdc/src/main/java/com/ververica/cdc/connectors/oceanbase/source/OceanBaseSchemaUtils.java
+  AL    flink-connector-oceanbase-cdc/src/main/java/com/ververica/cdc/connectors/oceanbase/source/OceanBaseRichSourceFunction.java
+  AL    flink-connector-oceanbase-cdc/src/main/java/com/ververica/cdc/connectors/oceanbase/source/OceanBaseTableSchema.java
+  AL    flink-connector-oceanbase-cdc/src/main/java/com/ververica/cdc/connectors/oceanbase/table/OceanBaseReadableMetadata.java
+  AL    flink-connector-oceanbase-cdc/src/main/java/com/ververica/cdc/connectors/oceanbase/table/StartupMode.java
+  AL    flink-connector-oceanbase-cdc/src/main/java/com/ververica/cdc/connectors/oceanbase/table/OceanBaseTableSource.java
+  AL    flink-connector-oceanbase-cdc/src/main/java/com/ververica/cdc/connectors/oceanbase/table/OceanBaseTableSourceFactory.java
+  AL    flink-connector-mysql-cdc/pom.xml
+  AL    flink-connector-mysql-cdc/src/test/resources/docker/setup.sql
+  AL    flink-connector-mysql-cdc/src/test/resources/docker/server/my.cnf
+  AL    flink-connector-mysql-cdc/src/test/resources/docker/server-gtids/my.cnf
+  AL    flink-connector-mysql-cdc/src/test/resources/ddl/customer.sql
+  AL    flink-connector-mysql-cdc/src/test/resources/ddl/user_2.sql
+  AL    flink-connector-mysql-cdc/src/test/resources/ddl/user_1.sql
+  AL    flink-connector-mysql-cdc/src/test/resources/ddl/polardbx_ddl_test.sql
+  AL    flink-connector-mysql-cdc/src/test/resources/ddl/column_type_test_mysql8.sql
+  AL    flink-connector-mysql-cdc/src/test/resources/ddl/inventory.sql
+  AL    flink-connector-mysql-cdc/src/test/resources/ddl/column_type_test.sql
+  AL    flink-connector-mysql-cdc/src/test/resources/log4j2-test.properties
+  AL    flink-connector-mysql-cdc/src/test/java/com/ververica/cdc/connectors/mysql/LegacyMySqlSourceITCase.java
+  AL    flink-connector-mysql-cdc/src/test/java/com/ververica/cdc/connectors/mysql/source/reader/MySqlSourceReaderTest.java
+  AL    flink-connector-mysql-cdc/src/test/java/com/ververica/cdc/connectors/mysql/source/reader/MySqlRecordEmitterTest.java
+  AL    flink-connector-mysql-cdc/src/test/java/com/ververica/cdc/connectors/mysql/source/split/MySqlSplitSerializerTest.java
+  AL    flink-connector-mysql-cdc/src/test/java/com/ververica/cdc/connectors/mysql/source/split/MySqlSplitStateTest.java
+  AL    flink-connector-mysql-cdc/src/test/java/com/ververica/cdc/connectors/mysql/source/utils/RecordUtilsTest.java
+  AL    flink-connector-mysql-cdc/src/test/java/com/ververica/cdc/connectors/mysql/source/utils/ObjectUtilsTest.java
+  AL    flink-connector-mysql-cdc/src/test/java/com/ververica/cdc/connectors/mysql/source/MySqlSourceITCase.java
+  AL    flink-connector-mysql-cdc/src/test/java/com/ververica/cdc/connectors/mysql/source/assigners/MySqlSnapshotSplitAssignerTest.java
+  AL    flink-connector-mysql-cdc/src/test/java/com/ververica/cdc/connectors/mysql/source/assigners/state/PendingSplitsStateSerializerTest.java
+  AL    flink-connector-mysql-cdc/src/test/java/com/ververica/cdc/connectors/mysql/source/assigners/MySqlHybridSplitAssignerTest.java
+  AL    flink-connector-mysql-cdc/src/test/java/com/ververica/cdc/connectors/mysql/source/MySqlSourceExampleTest.java
+  AL    flink-connector-mysql-cdc/src/test/java/com/ververica/cdc/connectors/mysql/source/MySqlSourceTestBase.java
+  AL    flink-connector-mysql-cdc/src/test/java/com/ververica/cdc/connectors/mysql/LegacyMySqlSourceTest.java
+  AL    flink-connector-mysql-cdc/src/test/java/com/ververica/cdc/connectors/mysql/MySqlValidatorTest.java
+  AL    flink-connector-mysql-cdc/src/test/java/com/ververica/cdc/connectors/mysql/LegacyMySqlTestBase.java
+  AL    flink-connector-mysql-cdc/src/test/java/com/ververica/cdc/connectors/mysql/MySqlTestUtils.java
+  AL    flink-connector-mysql-cdc/src/test/java/com/ververica/cdc/connectors/mysql/table/MySqlTimezoneITCase.java
+  AL    flink-connector-mysql-cdc/src/test/java/com/ververica/cdc/connectors/mysql/table/MySqlCompatibilityITCase.java
+  AL    flink-connector-mysql-cdc/src/test/java/com/ververica/cdc/connectors/mysql/table/MySqlConnectorITCase.java
+  AL    flink-connector-mysql-cdc/src/test/java/com/ververica/cdc/connectors/mysql/table/MySqlTableSourceFactoryTest.java
+  AL    flink-connector-mysql-cdc/src/test/java/com/ververica/cdc/connectors/mysql/LegacyMySqlSourceExampleTest.java
+  AL    flink-connector-mysql-cdc/src/test/java/com/ververica/cdc/connectors/mysql/testutils/MySqlVersion.java
+  AL    flink-connector-mysql-cdc/src/test/java/com/ververica/cdc/connectors/mysql/testutils/RecordsFormatter.java
+  AL    flink-connector-mysql-cdc/src/test/java/com/ververica/cdc/connectors/mysql/testutils/UniqueDatabase.java
+  AL    flink-connector-mysql-cdc/src/test/java/com/ververica/cdc/connectors/mysql/testutils/MySqlContainer.java
+  AL    flink-connector-mysql-cdc/src/test/java/com/ververica/cdc/connectors/mysql/debezium/reader/SnapshotSplitReaderTest.java
+  AL    flink-connector-mysql-cdc/src/test/java/com/ververica/cdc/connectors/mysql/debezium/reader/BinlogSplitReaderTest.java
+  AL    flink-connector-mysql-cdc/src/test/java/com/ververica/cdc/connectors/polardbx/PolardbxSourceTCase.java
+  AL    flink-connector-mysql-cdc/src/test/java/com/github/shyiko/mysql/binlog/io/BufferedSocketInputStreamTest.java
+  AL    flink-connector-mysql-cdc/src/main/resources/META-INF/services/org.apache.flink.table.factories.Factory
+  AL    flink-connector-mysql-cdc/src/main/java/com/ververica/cdc/connectors/mysql/MySqlSource.java
+  AL    flink-connector-mysql-cdc/src/main/java/com/ververica/cdc/connectors/mysql/source/reader/MySqlSplitReader.java
+  AL    flink-connector-mysql-cdc/src/main/java/com/ververica/cdc/connectors/mysql/source/reader/MySqlSourceReader.java
+  AL    flink-connector-mysql-cdc/src/main/java/com/ververica/cdc/connectors/mysql/source/reader/MySqlRecordEmitter.java
+  AL    flink-connector-mysql-cdc/src/main/java/com/ververica/cdc/connectors/mysql/source/reader/MySqlSourceReaderContext.java
+  AL    flink-connector-mysql-cdc/src/main/java/com/ververica/cdc/connectors/mysql/source/split/MySqlSplitState.java
+  AL    flink-connector-mysql-cdc/src/main/java/com/ververica/cdc/connectors/mysql/source/split/FinishedSnapshotSplitInfo.java
+  AL    flink-connector-mysql-cdc/src/main/java/com/ververica/cdc/connectors/mysql/source/split/MySqlBinlogSplit.java
+  AL    flink-connector-mysql-cdc/src/main/java/com/ververica/cdc/connectors/mysql/source/split/MySqlSplitSerializer.java
+  AL    flink-connector-mysql-cdc/src/main/java/com/ververica/cdc/connectors/mysql/source/split/MySqlRecords.java
+  AL    flink-connector-mysql-cdc/src/main/java/com/ververica/cdc/connectors/mysql/source/split/MySqlSnapshotSplitState.java
+  AL    flink-connector-mysql-cdc/src/main/java/com/ververica/cdc/connectors/mysql/source/split/MySqlSplit.java
+  AL    flink-connector-mysql-cdc/src/main/java/com/ververica/cdc/connectors/mysql/source/split/MySqlSnapshotSplit.java
+  AL    flink-connector-mysql-cdc/src/main/java/com/ververica/cdc/connectors/mysql/source/split/MySqlBinlogSplitState.java
+  AL    flink-connector-mysql-cdc/src/main/java/com/ververica/cdc/connectors/mysql/source/metrics/MySqlSourceReaderMetrics.java
+  AL    flink-connector-mysql-cdc/src/main/java/com/ververica/cdc/connectors/mysql/source/connection/ConnectionPools.java
+  AL    flink-connector-mysql-cdc/src/main/java/com/ververica/cdc/connectors/mysql/source/connection/JdbcConnectionFactory.java
+  AL    flink-connector-mysql-cdc/src/main/java/com/ververica/cdc/connectors/mysql/source/connection/ConnectionPoolId.java
+  AL    flink-connector-mysql-cdc/src/main/java/com/ververica/cdc/connectors/mysql/source/connection/PooledDataSourceFactory.java
+  AL    flink-connector-mysql-cdc/src/main/java/com/ververica/cdc/connectors/mysql/source/connection/JdbcConnectionPools.java
+  AL    flink-connector-mysql-cdc/src/main/java/com/ververica/cdc/connectors/mysql/source/MySqlSource.java
+  AL    flink-connector-mysql-cdc/src/main/java/com/ververica/cdc/connectors/mysql/source/config/ServerIdRange.java
+  AL    flink-connector-mysql-cdc/src/main/java/com/ververica/cdc/connectors/mysql/source/config/MySqlSourceOptions.java
+  AL    flink-connector-mysql-cdc/src/main/java/com/ververica/cdc/connectors/mysql/source/config/MySqlSourceConfig.java
+  AL    flink-connector-mysql-cdc/src/main/java/com/ververica/cdc/connectors/mysql/source/config/MySqlSourceConfigFactory.java
+  AL    flink-connector-mysql-cdc/src/main/java/com/ververica/cdc/connectors/mysql/source/utils/SerializerUtils.java
+  AL    flink-connector-mysql-cdc/src/main/java/com/ververica/cdc/connectors/mysql/source/utils/RecordUtils.java
+  AL    flink-connector-mysql-cdc/src/main/java/com/ververica/cdc/connectors/mysql/source/utils/TableDiscoveryUtils.java
+  AL    flink-connector-mysql-cdc/src/main/java/com/ververica/cdc/connectors/mysql/source/utils/ChunkUtils.java
+  AL    flink-connector-mysql-cdc/src/main/java/com/ververica/cdc/connectors/mysql/source/utils/ObjectUtils.java
+  AL    flink-connector-mysql-cdc/src/main/java/com/ververica/cdc/connectors/mysql/source/utils/StatementUtils.java
+  AL    flink-connector-mysql-cdc/src/main/java/com/ververica/cdc/connectors/mysql/source/offset/BinlogOffsetSerializer.java
+  AL    flink-connector-mysql-cdc/src/main/java/com/ververica/cdc/connectors/mysql/source/offset/BinlogOffset.java
+  AL    flink-connector-mysql-cdc/src/main/java/com/ververica/cdc/connectors/mysql/source/assigners/ChunkSplitter.java
+  AL    flink-connector-mysql-cdc/src/main/java/com/ververica/cdc/connectors/mysql/source/assigners/MySqlHybridSplitAssigner.java
+  AL    flink-connector-mysql-cdc/src/main/java/com/ververica/cdc/connectors/mysql/source/assigners/MySqlBinlogSplitAssigner.java
+  AL    flink-connector-mysql-cdc/src/main/java/com/ververica/cdc/connectors/mysql/source/assigners/ChunkRange.java
+  AL    flink-connector-mysql-cdc/src/main/java/com/ververica/cdc/connectors/mysql/source/assigners/state/BinlogPendingSplitsState.java
+  AL    flink-connector-mysql-cdc/src/main/java/com/ververica/cdc/connectors/mysql/source/assigners/state/PendingSplitsStateSerializer.java
+  AL    flink-connector-mysql-cdc/src/main/java/com/ververica/cdc/connectors/mysql/source/assigners/state/PendingSplitsState.java
+  AL    flink-connector-mysql-cdc/src/main/java/com/ververica/cdc/connectors/mysql/source/assigners/state/HybridPendingSplitsState.java
+  AL    flink-connector-mysql-cdc/src/main/java/com/ververica/cdc/connectors/mysql/source/assigners/state/SnapshotPendingSplitsState.java
+  AL    flink-connector-mysql-cdc/src/main/java/com/ververica/cdc/connectors/mysql/source/assigners/MySqlSplitAssigner.java
+  AL    flink-connector-mysql-cdc/src/main/java/com/ververica/cdc/connectors/mysql/source/assigners/AssignerStatus.java
+  AL    flink-connector-mysql-cdc/src/main/java/com/ververica/cdc/connectors/mysql/source/assigners/MySqlSnapshotSplitAssigner.java
+  AL    flink-connector-mysql-cdc/src/main/java/com/ververica/cdc/connectors/mysql/source/events/BinlogSplitMetaRequestEvent.java
+  AL    flink-connector-mysql-cdc/src/main/java/com/ververica/cdc/connectors/mysql/source/events/LatestFinishedSplitsSizeEvent.java
+  AL    flink-connector-mysql-cdc/src/main/java/com/ververica/cdc/connectors/mysql/source/events/BinlogSplitMetaEvent.java
+  AL    flink-connector-mysql-cdc/src/main/java/com/ververica/cdc/connectors/mysql/source/events/FinishedSnapshotSplitsReportEvent.java
+  AL    flink-connector-mysql-cdc/src/main/java/com/ververica/cdc/connectors/mysql/source/events/FinishedSnapshotSplitsAckEvent.java
+  AL    flink-connector-mysql-cdc/src/main/java/com/ververica/cdc/connectors/mysql/source/events/SuspendBinlogReaderEvent.java
+  AL    flink-connector-mysql-cdc/src/main/java/com/ververica/cdc/connectors/mysql/source/events/LatestFinishedSplitsSizeRequestEvent.java
+  AL    flink-connector-mysql-cdc/src/main/java/com/ververica/cdc/connectors/mysql/source/events/WakeupReaderEvent.java
+  AL    flink-connector-mysql-cdc/src/main/java/com/ververica/cdc/connectors/mysql/source/events/SuspendBinlogReaderAckEvent.java
+  AL    flink-connector-mysql-cdc/src/main/java/com/ververica/cdc/connectors/mysql/source/events/FinishedSnapshotSplitsRequestEvent.java
+  AL    flink-connector-mysql-cdc/src/main/java/com/ververica/cdc/connectors/mysql/source/enumerator/MySqlSourceEnumerator.java
+  AL    flink-connector-mysql-cdc/src/main/java/com/ververica/cdc/connectors/mysql/source/MySqlSourceBuilder.java
+  AL    flink-connector-mysql-cdc/src/main/java/com/ververica/cdc/connectors/mysql/schema/MySqlTableDefinition.java
+  AL    flink-connector-mysql-cdc/src/main/java/com/ververica/cdc/connectors/mysql/schema/MySqlTypeUtils.java
+  AL    flink-connector-mysql-cdc/src/main/java/com/ververica/cdc/connectors/mysql/schema/MySqlSchema.java
+  AL    flink-connector-mysql-cdc/src/main/java/com/ververica/cdc/connectors/mysql/table/MySqlReadableMetadata.java
+  AL    flink-connector-mysql-cdc/src/main/java/com/ververica/cdc/connectors/mysql/table/MySqlTableSourceFactory.java
+  AL    flink-connector-mysql-cdc/src/main/java/com/ververica/cdc/connectors/mysql/table/MySqlTableSource.java
+  AL    flink-connector-mysql-cdc/src/main/java/com/ververica/cdc/connectors/mysql/table/StartupMode.java
+  AL    flink-connector-mysql-cdc/src/main/java/com/ververica/cdc/connectors/mysql/table/JdbcUrlUtils.java
+  AL    flink-connector-mysql-cdc/src/main/java/com/ververica/cdc/connectors/mysql/table/StartupOptions.java
+  AL    flink-connector-mysql-cdc/src/main/java/com/ververica/cdc/connectors/mysql/table/MySqlDeserializationConverterFactory.java
+  AL    flink-connector-mysql-cdc/src/main/java/com/ververica/cdc/connectors/mysql/MySqlValidator.java
+  AL    flink-connector-mysql-cdc/src/main/java/com/ververica/cdc/connectors/mysql/SeekBinlogToTimestampFilter.java
+  AL    flink-connector-mysql-cdc/src/main/java/com/ververica/cdc/connectors/mysql/debezium/reader/BinlogSplitReader.java
+  AL    flink-connector-mysql-cdc/src/main/java/com/ververica/cdc/connectors/mysql/debezium/reader/SnapshotSplitReader.java
+  AL    flink-connector-mysql-cdc/src/main/java/com/ververica/cdc/connectors/mysql/debezium/reader/DebeziumReader.java
+  AL    flink-connector-mysql-cdc/src/main/java/com/ververica/cdc/connectors/mysql/debezium/DebeziumUtils.java
+  AL    flink-connector-mysql-cdc/src/main/java/com/ververica/cdc/connectors/mysql/debezium/dispatcher/SignalEventDispatcher.java
+  AL    flink-connector-mysql-cdc/src/main/java/com/ververica/cdc/connectors/mysql/debezium/dispatcher/EventDispatcherImpl.java
+  AL    flink-connector-mysql-cdc/src/main/java/com/ververica/cdc/connectors/mysql/debezium/EmbeddedFlinkDatabaseHistory.java
+  AL    flink-connector-mysql-cdc/src/main/java/com/ververica/cdc/connectors/mysql/debezium/task/context/MySqlTaskContextImpl.java
+  AL    flink-connector-mysql-cdc/src/main/java/com/ververica/cdc/connectors/mysql/debezium/task/context/StatefulTaskContext.java
+  AL    flink-connector-mysql-cdc/src/main/java/com/ververica/cdc/connectors/mysql/debezium/task/context/MySqlErrorHandler.java
+  AL    flink-connector-mysql-cdc/src/main/java/com/ververica/cdc/connectors/mysql/debezium/task/MySqlSnapshotSplitReadTask.java
+  AL    flink-connector-mysql-cdc/src/main/java/com/ververica/cdc/connectors/mysql/debezium/task/MySqlBinlogSplitReadTask.java
+  AL    flink-connector-mysql-cdc/src/main/java/com/github/shyiko/mysql/binlog/io/BufferedSocketInputStream.java
+  AL    flink-connector-postgres-cdc/pom.xml
+  AL    flink-connector-postgres-cdc/src/test/resources/ddl/replica_identity.sql
+  AL    flink-connector-postgres-cdc/src/test/resources/ddl/inventory.sql
+  AL    flink-connector-postgres-cdc/src/test/resources/ddl/column_type_test.sql
+  AL    flink-connector-postgres-cdc/src/test/resources/log4j2-test.properties
+  AL    flink-connector-postgres-cdc/src/test/java/com/ververica/cdc/connectors/postgres/table/PostgreSQLConnectorITCase.java
+  AL    flink-connector-postgres-cdc/src/test/java/com/ververica/cdc/connectors/postgres/table/PostgreSQLTableFactoryTest.java
+  AL    flink-connector-postgres-cdc/src/test/java/com/ververica/cdc/connectors/postgres/PostgresTestBase.java
+  AL    flink-connector-postgres-cdc/src/test/java/com/ververica/cdc/connectors/postgres/PostgreSQLSourceTest.java
+  AL    flink-connector-postgres-cdc/src/main/resources/META-INF/services/org.apache.flink.table.factories.Factory
+  AL    flink-connector-postgres-cdc/src/main/java/com/ververica/cdc/connectors/postgres/table/PostgreSQLTableSource.java
+  AL    flink-connector-postgres-cdc/src/main/java/com/ververica/cdc/connectors/postgres/table/PostgresValueValidator.java
+  AL    flink-connector-postgres-cdc/src/main/java/com/ververica/cdc/connectors/postgres/table/PostgreSQLTableFactory.java
+  AL    flink-connector-postgres-cdc/src/main/java/com/ververica/cdc/connectors/postgres/table/PostgreSQLReadableMetadata.java
+  AL    flink-connector-postgres-cdc/src/main/java/com/ververica/cdc/connectors/postgres/PostgreSQLSource.java
+  AL    flink-sql-connector-tidb-cdc/pom.xml
+  AL    flink-sql-connector-tidb-cdc/src/main/java/DummyDocs.java
+ !????? com/ververica/cdc/debezium/table/annotations.xml
+  AL    flink-connector-sqlserver-cdc/pom.xml
+  AL    flink-connector-sqlserver-cdc/src/test/resources/ddl/inventory.sql
+  AL    flink-connector-sqlserver-cdc/src/test/resources/ddl/column_type_test.sql
+  AL    flink-connector-sqlserver-cdc/src/test/resources/log4j2-test.properties
+  AL    flink-connector-sqlserver-cdc/src/test/java/com/ververica/cdc/connectors/sqlserver/SqlServerTestBase.java
+  AL    flink-connector-sqlserver-cdc/src/test/java/com/ververica/cdc/connectors/sqlserver/table/SqlServerConnectorITCase.java
+  AL    flink-connector-sqlserver-cdc/src/test/java/com/ververica/cdc/connectors/sqlserver/table/SqlServerTimezoneITCase.java
+  AL    flink-connector-sqlserver-cdc/src/test/java/com/ververica/cdc/connectors/sqlserver/table/SqlServerTableFactoryTest.java
+  AL    flink-connector-sqlserver-cdc/src/main/resources/META-INF/services/org.apache.flink.table.factories.Factory
+  AL    flink-connector-sqlserver-cdc/src/main/java/com/ververica/cdc/connectors/sqlserver/SqlServerValidator.java
+  AL    flink-connector-sqlserver-cdc/src/main/java/com/ververica/cdc/connectors/sqlserver/table/SqlServerDeserializationConverterFactory.java
+  AL    flink-connector-sqlserver-cdc/src/main/java/com/ververica/cdc/connectors/sqlserver/table/SqlServerTableFactory.java
+  AL    flink-connector-sqlserver-cdc/src/main/java/com/ververica/cdc/connectors/sqlserver/table/SqlServerTableSource.java
+  AL    flink-connector-sqlserver-cdc/src/main/java/com/ververica/cdc/connectors/sqlserver/table/StartupMode.java
+  AL    flink-connector-sqlserver-cdc/src/main/java/com/ververica/cdc/connectors/sqlserver/table/SqlServerReadableMetadata.java
+  AL    flink-connector-sqlserver-cdc/src/main/java/com/ververica/cdc/connectors/sqlserver/table/StartupOptions.java
+  AL    flink-connector-sqlserver-cdc/src/main/java/com/ververica/cdc/connectors/sqlserver/SqlServerSource.java
+  AL    flink-cdc-base/pom.xml
+  AL    flink-cdc-base/src/test/resources/docker/setup.sql
+  AL    flink-cdc-base/src/test/resources/docker/server-gtids/my.cnf
+  AL    flink-cdc-base/src/test/resources/ddl/inventory.sql
+  AL    flink-cdc-base/src/test/resources/log4j2-test.properties
+  AL    flink-cdc-base/src/test/java/com/ververica/cdc/connectors/base/experimental/MysqlPooledDataSourceFactory.java
+  AL    flink-cdc-base/src/test/java/com/ververica/cdc/connectors/base/experimental/config/ServerIdRange.java
+  AL    flink-cdc-base/src/test/java/com/ververica/cdc/connectors/base/experimental/config/MySqlSourceConfig.java
+  AL    flink-cdc-base/src/test/java/com/ververica/cdc/connectors/base/experimental/config/MySqlSourceConfigFactory.java
+  AL    flink-cdc-base/src/test/java/com/ververica/cdc/connectors/base/experimental/MySqlChunkSplitter.java
+  AL    flink-cdc-base/src/test/java/com/ververica/cdc/connectors/base/experimental/utils/TableDiscoveryUtils.java
+  AL    flink-cdc-base/src/test/java/com/ververica/cdc/connectors/base/experimental/utils/MySqlConnectionUtils.java
+  AL    flink-cdc-base/src/test/java/com/ververica/cdc/connectors/base/experimental/utils/MySqlTypeUtils.java
+  AL    flink-cdc-base/src/test/java/com/ververica/cdc/connectors/base/experimental/utils/MySqlSchema.java
+  AL    flink-cdc-base/src/test/java/com/ververica/cdc/connectors/base/experimental/utils/MySqlUtils.java
+  AL    flink-cdc-base/src/test/java/com/ververica/cdc/connectors/base/experimental/MySqlDialect.java
+  AL    flink-cdc-base/src/test/java/com/ververica/cdc/connectors/base/experimental/offset/BinlogOffsetFactory.java
+  AL    flink-cdc-base/src/test/java/com/ververica/cdc/connectors/base/experimental/offset/BinlogOffset.java
+  AL    flink-cdc-base/src/test/java/com/ververica/cdc/connectors/base/experimental/fetch/MySqlScanFetchTask.java
+  AL    flink-cdc-base/src/test/java/com/ververica/cdc/connectors/base/experimental/fetch/MySqlSourceFetchTaskContext.java
+  AL    flink-cdc-base/src/test/java/com/ververica/cdc/connectors/base/experimental/fetch/MySqlStreamFetchTask.java
+  AL    flink-cdc-base/src/test/java/com/ververica/cdc/connectors/base/experimental/EmbeddedFlinkDatabaseHistory.java
+  AL    flink-cdc-base/src/test/java/com/ververica/cdc/connectors/base/experimental/MySqlSourceBuilder.java
+  AL    flink-cdc-base/src/test/java/com/ververica/cdc/connectors/base/MySqlChangeEventSourceExampleTest.java
+  AL    flink-cdc-base/src/test/java/com/ververica/cdc/connectors/base/testutils/MySqlVersion.java
+  AL    flink-cdc-base/src/test/java/com/ververica/cdc/connectors/base/testutils/UniqueDatabase.java
+  AL    flink-cdc-base/src/test/java/com/ververica/cdc/connectors/base/testutils/MySqlContainer.java
+  AL    flink-cdc-base/src/main/java/com/ververica/cdc/connectors/base/options/JdbcSourceOptions.java
+  AL    flink-cdc-base/src/main/java/com/ververica/cdc/connectors/base/options/SourceOptions.java
+  AL    flink-cdc-base/src/main/java/com/ververica/cdc/connectors/base/options/StartupMode.java
+  AL    flink-cdc-base/src/main/java/com/ververica/cdc/connectors/base/options/StartupOptions.java
+  AL    flink-cdc-base/src/main/java/com/ververica/cdc/connectors/base/relational/connection/JdbcConnectionPoolFactory.java
+  AL    flink-cdc-base/src/main/java/com/ververica/cdc/connectors/base/relational/connection/ConnectionPools.java
+  AL    flink-cdc-base/src/main/java/com/ververica/cdc/connectors/base/relational/connection/JdbcConnectionFactory.java
+  AL    flink-cdc-base/src/main/java/com/ververica/cdc/connectors/base/relational/connection/ConnectionPoolId.java
+  AL    flink-cdc-base/src/main/java/com/ververica/cdc/connectors/base/relational/connection/JdbcConnectionPools.java
+  AL    flink-cdc-base/src/main/java/com/ververica/cdc/connectors/base/relational/JdbcSourceRecordEmitter.java
+  AL    flink-cdc-base/src/main/java/com/ververica/cdc/connectors/base/relational/JdbcSourceEventDispatcher.java
+  AL    flink-cdc-base/src/main/java/com/ververica/cdc/connectors/base/config/JdbcSourceConfigFactory.java
+  AL    flink-cdc-base/src/main/java/com/ververica/cdc/connectors/base/config/BaseSourceConfig.java
+  AL    flink-cdc-base/src/main/java/com/ververica/cdc/connectors/base/config/SourceConfig.java
+  AL    flink-cdc-base/src/main/java/com/ververica/cdc/connectors/base/config/JdbcSourceConfig.java
+  AL    flink-cdc-base/src/main/java/com/ververica/cdc/connectors/base/source/reader/JdbcSourceSplitReader.java
+  AL    flink-cdc-base/src/main/java/com/ververica/cdc/connectors/base/source/reader/JdbcIncrementalSourceReader.java
+  AL    flink-cdc-base/src/main/java/com/ververica/cdc/connectors/base/source/reader/external/JdbcSourceFetchTaskContext.java
+  AL    flink-cdc-base/src/main/java/com/ververica/cdc/connectors/base/source/reader/external/JdbcSourceStreamFetcher.java
+  AL    flink-cdc-base/src/main/java/com/ververica/cdc/connectors/base/source/reader/external/FetchTask.java
+  AL    flink-cdc-base/src/main/java/com/ververica/cdc/connectors/base/source/reader/external/Fetcher.java
+  AL    flink-cdc-base/src/main/java/com/ververica/cdc/connectors/base/source/reader/external/JdbcSourceScanFetcher.java
+  AL    flink-cdc-base/src/main/java/com/ververica/cdc/connectors/base/source/metrics/SourceReaderMetrics.java
+  AL    flink-cdc-base/src/main/java/com/ververica/cdc/connectors/base/source/meta/split/ChangeEventRecords.java
+  AL    flink-cdc-base/src/main/java/com/ververica/cdc/connectors/base/source/meta/split/SourceSplitBase.java
+  AL    flink-cdc-base/src/main/java/com/ververica/cdc/connectors/base/source/meta/split/StreamSplit.java
+  AL    flink-cdc-base/src/main/java/com/ververica/cdc/connectors/base/source/meta/split/SourceSplitSerializer.java
+  AL    flink-cdc-base/src/main/java/com/ververica/cdc/connectors/base/source/meta/split/FinishedSnapshotSplitInfo.java
+  AL    flink-cdc-base/src/main/java/com/ververica/cdc/connectors/base/source/meta/split/StreamSplitState.java
+  AL    flink-cdc-base/src/main/java/com/ververica/cdc/connectors/base/source/meta/split/SnapshotSplit.java
+  AL    flink-cdc-base/src/main/java/com/ververica/cdc/connectors/base/source/meta/split/SourceSplitState.java
+  AL    flink-cdc-base/src/main/java/com/ververica/cdc/connectors/base/source/meta/split/SnapshotSplitState.java
+  AL    flink-cdc-base/src/main/java/com/ververica/cdc/connectors/base/source/meta/offset/Offset.java
+  AL    flink-cdc-base/src/main/java/com/ververica/cdc/connectors/base/source/meta/offset/OffsetDeserializerSerializer.java
+  AL    flink-cdc-base/src/main/java/com/ververica/cdc/connectors/base/source/meta/offset/OffsetFactory.java
+  AL    flink-cdc-base/src/main/java/com/ververica/cdc/connectors/base/source/meta/events/FinishedSnapshotSplitsReportEvent.java
+  AL    flink-cdc-base/src/main/java/com/ververica/cdc/connectors/base/source/meta/events/StreamSplitMetaRequestEvent.java
+  AL    flink-cdc-base/src/main/java/com/ververica/cdc/connectors/base/source/meta/events/StreamSplitMetaEvent.java
+  AL    flink-cdc-base/src/main/java/com/ververica/cdc/connectors/base/source/meta/events/FinishedSnapshotSplitsAckEvent.java
+  AL    flink-cdc-base/src/main/java/com/ververica/cdc/connectors/base/source/meta/events/FinishedSnapshotSplitsRequestEvent.java
+  AL    flink-cdc-base/src/main/java/com/ververica/cdc/connectors/base/source/assigner/StreamSplitAssigner.java
+  AL    flink-cdc-base/src/main/java/com/ververica/cdc/connectors/base/source/assigner/splitter/ChunkSplitter.java
+  AL    flink-cdc-base/src/main/java/com/ververica/cdc/connectors/base/source/assigner/splitter/JdbcSourceChunkSplitter.java
+  AL    flink-cdc-base/src/main/java/com/ververica/cdc/connectors/base/source/assigner/splitter/ChunkRange.java
+  AL    flink-cdc-base/src/main/java/com/ververica/cdc/connectors/base/source/assigner/state/StreamPendingSplitsState.java
+  AL    flink-cdc-base/src/main/java/com/ververica/cdc/connectors/base/source/assigner/state/PendingSplitsStateSerializer.java
+  AL    flink-cdc-base/src/main/java/com/ververica/cdc/connectors/base/source/assigner/state/PendingSplitsState.java
+  AL    flink-cdc-base/src/main/java/com/ververica/cdc/connectors/base/source/assigner/state/HybridPendingSplitsState.java
+  AL    flink-cdc-base/src/main/java/com/ververica/cdc/connectors/base/source/assigner/state/SnapshotPendingSplitsState.java
+  AL    flink-cdc-base/src/main/java/com/ververica/cdc/connectors/base/source/assigner/SnapshotSplitAssigner.java
+  AL    flink-cdc-base/src/main/java/com/ververica/cdc/connectors/base/source/assigner/HybridSplitAssigner.java
+  AL    flink-cdc-base/src/main/java/com/ververica/cdc/connectors/base/source/assigner/SplitAssigner.java
+  AL    flink-cdc-base/src/main/java/com/ververica/cdc/connectors/base/source/enumerator/IncrementalSourceEnumerator.java
+  AL    flink-cdc-base/src/main/java/com/ververica/cdc/connectors/base/source/JdbcIncrementalSource.java
+  AL    flink-cdc-base/src/main/java/com/ververica/cdc/connectors/base/utils/SerializerUtils.java
+  AL    flink-cdc-base/src/main/java/com/ververica/cdc/connectors/base/utils/ObjectUtils.java
+  AL    flink-cdc-base/src/main/java/com/ververica/cdc/connectors/base/utils/SourceRecordUtils.java
+  AL    flink-cdc-base/src/main/java/com/ververica/cdc/connectors/base/dialect/DataSourceDialect.java
+  AL    flink-cdc-base/src/main/java/com/ververica/cdc/connectors/base/dialect/JdbcDataSourceDialect.java
+  AL    flink-sql-connector-mysql-cdc/pom.xml
+  N     flink-sql-connector-mysql-cdc/src/main/resources/META-INF/NOTICE
+  AL    flink-sql-connector-mysql-cdc/src/main/java/com/ververica/cdc/connectors/mysql/DummyDocs.java
+ 
+*****************************************************
+
+ Printing headers for text files without a valid license header...
+ 
+=====================================================
+== File: flink-sql-connector-kingbase86-cdc/pom.xml
+=====================================================
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>flink-cdc-connectors</artifactId>
+        <groupId>com.ververica</groupId>
+        <version>2.2.0</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>flink-sql-connector-kingbase86-cdc</artifactId>
+
+    <dependencies>
+        <dependency>
+            <groupId>com.ververica</groupId>
+            <artifactId>flink-connector-kingbase86-cdc</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+    </dependencies>
+
+    <build>
+        <!--<finalName>flink-sql-connector-kingbase-cdc-${project.version}</finalName>-->
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-shade-plugin</artifactId>
+                <version>3.2.4</version>
+                <executions>
+                    <execution>
+                        <id>shade-flink</id>
+                        <phase>package</phase>
+                        <goals>
+                            <goal>shade</goal>
+                        </goals>
+                        <configuration>
+                            <shadeTestJar>false</shadeTestJar>
+                            <artifactSet>
+                                <includes>
+                                    <include>io.debezium:debezium-api</include>
+                                    <include>io.debezium:debezium-embedded</include>
+                                    <include>io.debezium:debezium-core</include>
+                                    <include>io.debezium:debezium-connector-kingbase86</include>
+                                    <include>com.ververica:flink-connector-debezium</include>
+                                    <include>com.ververica:flink-connector-kingbase86-cdc</include>
+                                    <include>com.google.protobuf:protobuf-java</include>
+                                    <include>com.google.guava:*</include>
+                                    <include>org.apache.kafka:*</include>
+                                    <include>org.postgresql:postgresql</include>
+                                    <include>com.fasterxml.*:*</include>
+
+=====================================================
+== File: flink-connector-kingbase86-cdc/pom.xml
+=====================================================
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>flink-cdc-connectors</artifactId>
+        <groupId>com.ververica</groupId>
+        <version>2.2.0</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>flink-connector-kingbase86-cdc</artifactId>
+    <name>flink-connector-kingbase86-cdc</name>
+    <packaging>jar</packaging>
+
+    <dependencies>
+
+        <!-- Debezium dependencies -->
+        <dependency>
+            <groupId>com.ververica</groupId>
+            <artifactId>flink-connector-debezium</artifactId>
+            <version>${project.version}</version>
+            <exclusions>
+                <exclusion>
+                    <artifactId>kafka-log4j-appender</artifactId>
+                    <groupId>org.apache.kafka</groupId>
+                </exclusion>
+            </exclusions>
+        </dependency>
+
+        <dependency>
+            <groupId>io.debezium</groupId>
+            <artifactId>debezium-connector-kingbase86</artifactId>
+            <version>${debezium.version}</version>
+        </dependency>
+
+        <!-- test dependencies on Debezium -->
+
+        <dependency>
+            <groupId>com.ververica</groupId>
+            <artifactId>flink-connector-test-util</artifactId>
+            <version>${project.version}</version>
+            <scope>test</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>io.debezium</groupId>
+            <artifactId>debezium-core</artifactId>
+            <version>${debezium.version}</version>
+            <type>test-jar</type>
+
+=====================================================
+== File: com/ververica/cdc/debezium/table/annotations.xml
+=====================================================
+<root>
+</root>
